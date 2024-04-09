@@ -12,6 +12,12 @@ h4 {
     font-size: 15px;
 }
 
+ul {
+    font-family: "Archivo Black", sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    list-style-type: none;
+}
 
 .navigation {
     display: flex;
@@ -43,4 +49,33 @@ h4 {
 #ora-logo {
     margin: 0;
     width: 100%;
+}
+
+.nav-options {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    width: 100%;
+}
+
+.nav-options > * {
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+}
+
+#news {
+    max-width: 90px;
+}
+
+#discover {
+    max-width: 250px;
+}
+
+#contact {
+    max-width: 100px;
+}
+
+#socials {
+    margin: 0px 50px 0px 0px;
 }
