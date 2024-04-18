@@ -120,6 +120,8 @@ ul {
     border-radius: 10px;
 }
 
+/* Widgets */
+
 .widgets {
     width: fit-content;
     display: flex;
@@ -132,6 +134,34 @@ ul {
     height: 70px;
 }
 
+.location {
+    height: fit-content;
+}
+
+.cloud-party {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+}
+.cloud-party > * {
+    flex: 1 1 auto;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.cloud-toggle {
+    background-image: url(images/clouds.png);
+}
+
+.party-toggle {
+    background-image: url(images/emojis.png);
+}
+
+/* Previews */
+
 .previews {
     width: fit-content;
     display: flex;
@@ -141,10 +171,13 @@ ul {
 
 .previews > * {
     width: 360px;
-    height: 90px;
+    height: 80px;
 }
+
+/* People */
 
 .people {
     flex: 1 1 auto;
     background-color: aqua;
 }
+
