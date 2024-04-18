@@ -121,13 +121,30 @@ ul {
 }
 
 .widgets {
-    flex: 1 1 auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.widgets > * {
+    width: 240px;
+    height: 70px;
 }
 
 .previews {
-    flex: 1 1 auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.previews > * {
+    width: 360px;
+    height: 90px;
 }
 
 .people {
     flex: 1 1 auto;
+    background-color: aqua;
 }
