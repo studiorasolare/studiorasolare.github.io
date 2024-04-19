@@ -1,6 +1,21 @@
 
 // Widgets
 
+// Time
+
+const timeDiv = document.querySelector("#time");
+const dateDiv = document.querySelector(".time");
+const locationDiv = document.querySelector(".location");
+const defaultPlace = "milan";
+let currentPlace = defaultPlace;
+
+
+// while (currentPlace = defaultPlace) {
+    
+// };
+
+
+
 // Cloud Toggle
 
 let isCloudy = false;
@@ -18,7 +33,3 @@ do {
 //     isCloudy = false;
 // }
 // }
-
-// Location
-
-let locationDiv = document.querySelector(".location")
