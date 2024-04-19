@@ -146,8 +146,6 @@ ul {
 .card {
     background-color: #E9E9E9;
     padding: 15px 12px;
-    width: 20px;
-    height: fit-content;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -157,14 +155,14 @@ ul {
 /* Widgets */
 
 .widgets {
-    width: fit-content;
+    flex: 1 2 200px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
 .widgets > * {
-    width: 240px;
     height: 70px;
 }
 
@@ -179,25 +177,27 @@ ul {
     gap: 10px;
 }
 .cloud-party > * {
-    flex: 1 1 auto;
     height: 70px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 
 .cloud-toggle {
+    flex: 1 1 0;
     background-image: url(images/clouds.png);
 }
 
 .party-toggle {
+    flex: 1 1 0;
     background-image: url(images/emojis.png);
 }
 
 /* Previews */
 
 .previews {
-    width: fit-content;
+    flex: 1 2 360px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -211,8 +211,7 @@ ul {
 }
 
 .previews > * {
-    width: 360px;
-    height: fit-content;
+    height: 98px;
 }
 
 .card-header {
@@ -229,12 +228,22 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    height: 100%;
 }
 
 .card-body {
     display: flex;
     flex-direction: row;
     gap: 10px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.card-body p {
+    display: -webkit-box; 
+    -webkit-box-orient: vertical; 
+    -webkit-line-clamp: 3; 
+    text-overflow: ellipsis;
 }
 
 .card-body > img{
@@ -252,6 +261,7 @@ ul {
 /* People */
 
 .people {
+    flex: 1 1 auto;
     display: flex;
     flex-wrap: wrap;
     margin: 50px;
