@@ -3,30 +3,22 @@
 
 // Time
 
+const logoTimeDiv = document.getElementById("time-logo");
 const timeDiv = document.getElementById("time");
 const dateDiv = document.getElementById("date");
 const locationDiv = document.getElementById("location");
 
 const people = document.querySelectorAll(".person");
 
-const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
-const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
 const updateTime = function () {
     let currentTime = luxon.DateTime.now().setZone("Europe/Rome").toFormat("HH:mm:ss");
-    timeDiv.innerHTML = currentTime;
+    logoTimeDiv.innerHTML = currentTime;
     let currLocation = "Milan, Italy";
     locationDiv.innerHTML = currLocation;
-
-    people.forEach(person => {
-    let timezone = person.getAttribute("data-timezone");
-    let location = person.getAttribute("data-location");
-    person.addEventListener("click", ()=>{
-        currentTime = luxon.DateTime.now().setZone(timezone).toFormat("HH:mm:ss");
-        currLocation = location;
-        console.log("clicked" + location + "" + currentTime);
-    })
-    });
+    let currentDate = luxon.DateTime.now().setZone("Europe/Rome");
+    dateDiv.innerHTML = currentDate.toLocaleString({ month: 'long', day: 'numeric', weekday: 'long' });
+    timeDiv.innerHTML = luxon.DateTime.now().setZone("Europe/Rome").toFormat("HH:mm");
 }
 
 updateTime();
@@ -35,10 +27,18 @@ setInterval(function () {
     updateTime()
 }, 1000);
 
-// person.addEventListener("click", ()=> {     
-// })
+// people.forEach(person => {
+//     let timezone = person.getAttribute("data-timezone");
+//     console.log(timezone);
+//     let location = person.getAttribute("data-location");
+//     person.addEventListener("click", ()=>{
+//         currentTime = luxon.DateTime.now().setZone(timezone).toFormat("HH:mm:ss");
+//         currLocation = location;
+//         console.log("clicked" + location + "" + currentTime);
+//     })
+//     });
 
-// Cloud Toggle
+// Cloud Party and Screen Toggle
 
 let isCloudy = false;
 let cloudDiv = document.querySelector(".cloud-toggle");
@@ -47,11 +47,34 @@ do {
     cloudDiv.textContent = "Clouds";
 } while (isCloudy = false);
 
-// function cloudToggle() {
-// if (isCloudy = false){
-//     isCloudy = true;
-//     cloudDiv.textContent = "Clear Sky";
-// } else {
-//     isCloudy = false;
-// }
-// }
+let isParty = false;
+let partyDiv = document.querySelector(".party-toggle");
+
+do {
+    partyDiv.textContent = "Party";
+} while (isParty = false);
+
+let isDark = false;
+let screenDiv = document.querySelector(".screen-toggle");
+
+do {
+    screenDiv.textContent = "Dark";
+    screenDiv.style.cssText = 'color: white; background: black;';
+} while (isDark = false);
+
+// Body Content
+
+let logoDiv = document.getElementById("ora-logo");
+let peoplePage = document.getElementById("page-people");
+let aboutPage = document.getElementById("page-about");
+
+let cardAbout = document.getElementById("card-about");
+
+let removeBodyContent = function () {
+    if (peoplePage.style.cssText = "display: flex") {
+        peoplePage.style.cssText = "display: none";
+    }
+  };
+
+logoDiv.addEventListener("click", ()=>peoplePage.style.cssText = "display:flex")
+cardAbout.addEventListener("click", ()=>{removeBodyContent(); aboutPage.style.cssText = "display: flex"; })
