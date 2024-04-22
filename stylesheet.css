@@ -156,7 +156,7 @@ ul {
 /* Widgets */
 
 .widgets {
-    flex: 1 2 200px;
+    flex: 0 0 250px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -216,7 +216,7 @@ ul {
 /* Previews */
 
 .previews {
-    flex: 1 2 360px;
+    flex: 0 0 360px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -266,7 +266,7 @@ ul {
     text-overflow: ellipsis;
 }
 
-.card-body > img{
+.card-body img{
     width: 73.8px;
     height: auto;
     border-radius: 10px;
@@ -308,7 +308,7 @@ ul {
     position: relative;
 }
 
-.person > h1 {
+.person h1 {
     text-align: center;
     position: absolute;
     z-index: 1;
@@ -355,12 +355,57 @@ ul {
 
 #page-about {
     display: none;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-content: flex-start;
-    padding: 50px;
-    column-gap: 40px;
-    row-gap: 110px;
+    gap: 15px;
+    width: 100%;
 }
+
 #page-about h3 {
     font-size: 24px;
+}
+
+.about-column img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.about-column {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.about-row {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: 100%;
+    align-items: stretch;
+}
+
+.row-only div {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 100%;
+    height: 250px;
+}
+
+.c-size-small {
+    flex: 0 0 40%;
+    justify-content: stretch;
+}
+
+.c-size-small .card {
+    height: 100%;
+}
+
+.big-card-body {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 100%;
 }
