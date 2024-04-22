@@ -74,7 +74,10 @@ let removeBodyContent = function () {
     if (peoplePage.style.cssText = "display: flex") {
         peoplePage.style.cssText = "display: none";
     }
+    if (aboutPage.style.cssText = "display: flex") {
+        aboutPage.style.cssText = "display: none";
+    }
   };
 
-logoDiv.addEventListener("click", ()=>peoplePage.style.cssText = "display:flex")
+logoDiv.addEventListener("click", ()=>{removeBodyContent(); peoplePage.style.cssText = "display:flex";})
 cardAbout.addEventListener("click", ()=>{removeBodyContent(); aboutPage.style.cssText = "display: flex"; })
