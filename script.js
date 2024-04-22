@@ -67,10 +67,12 @@ do {
 let logoDiv = document.getElementById("ora-logo");
 let peoplePage = document.getElementById("page-people");
 let aboutPage = document.getElementById("page-about");
+let bodyContent = document.getElementById("body-cont");
 
 let cardAbout = document.getElementById("card-about");
 
 let removeBodyContent = function () {
+    bodyContent.scrollTo(0,0);
     if (peoplePage.style.cssText = "display: flex") {
         peoplePage.style.cssText = "display: none";
     }
