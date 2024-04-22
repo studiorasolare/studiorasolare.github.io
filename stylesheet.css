@@ -3,11 +3,15 @@
 
 /* General */
 
+html {
+    scroll-behavior: smooth;
+}
+
 html,
 body {
     overflow-y: hidden;
     height: 100%;
-    margin: 0;
+    margin: 0px;
     cursor: default;
 }
 
@@ -56,7 +60,11 @@ ul {
 .box {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 /* Navigation + title */
@@ -84,8 +92,9 @@ ul {
     color: white;
     margin: 0;
     position: absolute;
-    top: 61%;
+    top: 60%;
     left: 14.7%;
+    font-size: 1vw;
 
 }
 
@@ -140,7 +149,7 @@ ul {
     align-items: stretch;
     justify-content: space-between;
     padding: 0px 15px;
-    height: 100%;
+    height: 0vh;
     gap: 15px;
 }
 
@@ -158,6 +167,7 @@ ul {
 .widgets {
     flex: 0 0 250px;
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -224,6 +234,7 @@ ul {
     overflow-y: scroll;
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
     scrollbar-width: none;  /* Firefox */
+    padding-bottom: 15px;
 }
 
 .previews::-webkit-scrollbar { 
@@ -272,9 +283,6 @@ ul {
     border-radius: 10px;
 }
 
-.blank {
-    margin: 40% 0px;
-}
 
 /* Body Content */
 
@@ -284,6 +292,7 @@ ul {
     overflow-y: scroll;
     -ms-overflow-style: none;   /* Internet Explorer 10+ */
     scrollbar-width: none;  /* Firefox */
+    padding-bottom: 15px;
 }
 
 .body-content::-webkit-scrollbar { 
@@ -394,12 +403,21 @@ ul {
     height: 250px;
 }
 
-.c-size-small {
+.c-size-m div {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.c-size-s {
     flex: 0 0 40%;
     justify-content: stretch;
 }
 
-.c-size-small .card {
+.c-size-s .card {
     height: 100%;
 }
 
