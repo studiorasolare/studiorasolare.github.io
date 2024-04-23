@@ -2,41 +2,60 @@
 // Widgets
 
 // Time
+let timeLogoDiv = document.getElementById("time-logo");
+let locationDiv = document.getElementById("location");
+let timeDiv = document.getElementById("time");
+let dateDiv = document.getElementById("date");
 
-const logoTimeDiv = document.getElementById("time-logo");
-const timeDiv = document.getElementById("time");
-const dateDiv = document.getElementById("date");
-const locationDiv = document.getElementById("location");
+let places = [
+    {name: "Milan, Italy", timezone: "Europe/Rome"},
+    {name: "Santiago, Chile", timezone: "America/Santiago"},
+    {name: "Tokyo, Japan", timezone: "Asia/Tokyo"},
+    {name: "London, UK", timezone: "Europe/London"},
+    {name: "New York, USA", timezone: "America/New_York"},
+    {name: "Shanghai, China", timezone: "Asia/Shanghai"},
+    {name: "Canberra, Australia", timezone: "Australia/Canberra"},
+    {name: "Ottawa, Canada", timezone: "America/Toronto"},
+    {name: "Bangkok, Thailand", timezone: "Asia/Bangkok"},
+    {name: "Amsterdam, Netherlands", timezone: "Europe/Amsterdam"},
+    {name: "Johannesburg, South Africa", timezone: "Africa/Johannesburg"},
+];
 
-const people = document.querySelectorAll(".person");
+timeLogoDiv.innerHTML = luxon.DateTime.now().setZone(places[0].timezone).toFormat("HH:mm:ss");
+locationDiv.innerHTML = places[0].name;
+timeDiv.innerHTML = luxon.DateTime.now().setZone(places[0].timezone).toFormat("HH:mm");
+dateDiv.innerHTML = luxon.DateTime.now().setZone(places[0].timezone).toLocaleString({month: "long", day: "numeric", weekday: "long"});
 
+const people = Array.from(document.querySelectorAll(".person"));
+let currentLogoTime;
+let currentPlace;
+let currentTime;
+let currentDate;
 
-const updateTime = function () {
-    let currentTime = luxon.DateTime.now().setZone("Europe/Rome").toFormat("HH:mm:ss");
-    logoTimeDiv.innerHTML = currentTime;
-    let currLocation = "Milan, Italy";
-    locationDiv.innerHTML = currLocation;
-    let currentDate = luxon.DateTime.now().setZone("Europe/Rome");
-    dateDiv.innerHTML = currentDate.toLocaleString({ month: 'long', day: 'numeric', weekday: 'long' });
-    timeDiv.innerHTML = luxon.DateTime.now().setZone("Europe/Rome").toFormat("HH:mm");
-}
+people.forEach(person => {
+    person.addEventListener("click", ()=>{
+        currentN = Number(person.getAttribute("data-order"));
 
-updateTime();
+        currentPlace = places[currentN].name;
+        locationDiv.innerHTML = currentPlace;
 
-setInterval(function () {
-    updateTime()
-}, 1000);
+        let updateTime = function () {
+            currentTime = luxon.DateTime.now().setZone(places[currentN].timezone).toFormat("HH:mm");
+            timeDiv.innerHTML = currentTime;
 
-// people.forEach(person => {
-//     let timezone = person.getAttribute("data-timezone");
-//     console.log(timezone);
-//     let location = person.getAttribute("data-location");
-//     person.addEventListener("click", ()=>{
-//         currentTime = luxon.DateTime.now().setZone(timezone).toFormat("HH:mm:ss");
-//         currLocation = location;
-//         console.log("clicked" + location + "" + currentTime);
-//     })
-//     });
+            currentLogoTime = luxon.DateTime.now().setZone(places[currentN].timezone).toFormat("HH:mm:ss");
+            timeLogoDiv.innerHTML = currentLogoTime;
+
+            currentDate = luxon.DateTime.now().setZone(places[currentN].timezone);
+            dateDiv.innerHTML = currentDate.toLocaleString({month: "long", day: "numeric", weekday: "long"});
+        };
+        // updateTime();
+        setInterval(function (){
+            updateTime()
+        }, 1000);
+    })
+});
+
 
 // Cloud Party and Screen Toggle
 
