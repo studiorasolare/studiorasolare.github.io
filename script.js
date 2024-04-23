@@ -6,7 +6,7 @@ let locationDiv = document.getElementById("location");
 let timeDiv = document.getElementById("time");
 let dateDiv = document.getElementById("date");
 
-// Add a new nested object for each country/person
+// Add a new nested object for each country/person (use tz database codes)
 let places = [
     {name: "Milan, Italy", timezone: "Europe/Rome"},
     {name: "Santiago, Chile", timezone: "America/Santiago"},
@@ -27,20 +27,26 @@ let currentPlace;
 let currentTime;
 let currentDate;
 
-let personClicked;
-personClicked = false;
-
+// default loc, time and Date
 locationDiv.innerHTML = places[0].name;
-let updateOnStart = function () {
-    timeLogoDiv.innerHTML = luxon.DateTime.now().setZone(places[0].timezone).toFormat("HH:mm:ss");
-    timeDiv.innerHTML = luxon.DateTime.now().setZone(places[0].timezone).toFormat("HH:mm");
-    dateDiv.innerHTML = luxon.DateTime.now().setZone(places[0].timezone).toLocaleString({month: "long", day: "numeric", weekday: "long"});
-} 
-updateOnStart();
+let isDefault = true;
+function updateDefaultTime () {
+    people.forEach(person => person.addEventListener("click", ()=>isDefault = false))
+    if (isDefault === true) {
+        timeLogoDiv.innerHTML = luxon.DateTime.now().setZone(places[0].timezone).toFormat("HH:mm:ss");
+        timeDiv.innerHTML = luxon.DateTime.now().setZone(places[0].timezone).toFormat("HH:mm");
+        dateDiv.innerHTML = luxon.DateTime.now().setZone(places[0].timezone).toLocaleString({month: "long", day: "numeric", weekday: "long"});
+    } else {
+        return;
+    }
+};
+setInterval(function (){
+    updateDefaultTime()
+}, 1000);
 
+// update loc, time and date for each person
 people.forEach(person => {
     person.addEventListener("click", ()=>{
-        personClicked == true;
         currentN = Number(person.getAttribute("data-order"));
 
         currentPlace = places[currentN].name;
@@ -108,4 +114,4 @@ let removeBodyContent = function () {
 logoDiv.addEventListener("click", ()=>{removeBodyContent(); peoplePage.style.cssText = "display:flex";})
 cardAbout.addEventListener("click", ()=>{removeBodyContent(); aboutPage.style.cssText = "display: flex"; })
 
-// Last written by Anna Maria Lewke, 23/04/2024
+// Last written by Anna Maria Lewke, 23/04/2024 :)
