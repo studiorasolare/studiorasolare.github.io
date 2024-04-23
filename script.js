@@ -1,12 +1,12 @@
 
-// Widgets
+// Location, Time and Date
 
-// Time
 let timeLogoDiv = document.getElementById("time-logo");
 let locationDiv = document.getElementById("location");
 let timeDiv = document.getElementById("time");
 let dateDiv = document.getElementById("date");
 
+// Add a new nested object for each country/person
 let places = [
     {name: "Milan, Italy", timezone: "Europe/Rome"},
     {name: "Santiago, Chile", timezone: "America/Santiago"},
@@ -21,19 +21,26 @@ let places = [
     {name: "Johannesburg, South Africa", timezone: "Africa/Johannesburg"},
 ];
 
-timeLogoDiv.innerHTML = luxon.DateTime.now().setZone(places[0].timezone).toFormat("HH:mm:ss");
-locationDiv.innerHTML = places[0].name;
-timeDiv.innerHTML = luxon.DateTime.now().setZone(places[0].timezone).toFormat("HH:mm");
-dateDiv.innerHTML = luxon.DateTime.now().setZone(places[0].timezone).toLocaleString({month: "long", day: "numeric", weekday: "long"});
-
 const people = Array.from(document.querySelectorAll(".person"));
 let currentLogoTime;
 let currentPlace;
 let currentTime;
 let currentDate;
 
+let personClicked;
+personClicked = false;
+
+locationDiv.innerHTML = places[0].name;
+let updateOnStart = function () {
+    timeLogoDiv.innerHTML = luxon.DateTime.now().setZone(places[0].timezone).toFormat("HH:mm:ss");
+    timeDiv.innerHTML = luxon.DateTime.now().setZone(places[0].timezone).toFormat("HH:mm");
+    dateDiv.innerHTML = luxon.DateTime.now().setZone(places[0].timezone).toLocaleString({month: "long", day: "numeric", weekday: "long"});
+} 
+updateOnStart();
+
 people.forEach(person => {
     person.addEventListener("click", ()=>{
+        personClicked == true;
         currentN = Number(person.getAttribute("data-order"));
 
         currentPlace = places[currentN].name;
@@ -49,15 +56,13 @@ people.forEach(person => {
             currentDate = luxon.DateTime.now().setZone(places[currentN].timezone);
             dateDiv.innerHTML = currentDate.toLocaleString({month: "long", day: "numeric", weekday: "long"});
         };
-        // updateTime();
         setInterval(function (){
             updateTime()
         }, 1000);
     })
 });
 
-
-// Cloud Party and Screen Toggle
+// Cloud, Party and Screen Toggle
 
 let isCloudy = false;
 let cloudDiv = document.querySelector(".cloud-toggle");
@@ -102,3 +107,5 @@ let removeBodyContent = function () {
 
 logoDiv.addEventListener("click", ()=>{removeBodyContent(); peoplePage.style.cssText = "display:flex";})
 cardAbout.addEventListener("click", ()=>{removeBodyContent(); aboutPage.style.cssText = "display: flex"; })
+
+// Last written by Anna Maria Lewke, 23/04/2024
