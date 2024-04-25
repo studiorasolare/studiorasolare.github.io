@@ -88,7 +88,7 @@ let isDark = false;
 let screenDiv = document.querySelector(".screen-toggle");
 
 do {
-    screenDiv.textContent = "Dark";
+    screenDiv.textContent = "Night";
     screenDiv.style.cssText = 'color: white; background: black;';
 } while (isDark = false);
 
