@@ -46,7 +46,7 @@ h3 {
 h4 {
     font-family: "Archivo Black", sans-serif;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 14px;
     margin: 0;
 }
 
@@ -78,11 +78,11 @@ ul {
 }
 
 #slogan {
-    margin: 30px 0px 15px;
+    margin: 15px 0px 13px;
 }
 
 .ora-title {
-    margin: 0;
+    margin: 30px 0px 0px;
     height: fit-content;
     width: 100%;
     position: relative;
@@ -93,7 +93,7 @@ ul {
     margin: 0;
     position: absolute;
     top: 60%;
-    left: 14.7%;
+    left: 53.5%;
     font-size: 1vw;
 
 }
@@ -106,7 +106,7 @@ ul {
 .nav-options {
     display: flex;
     justify-content: space-between;
-    padding: 15px 0px;
+    padding: 13px 0px 18px;
     width: 100%;
 }
 
@@ -196,6 +196,7 @@ ul {
     font-size: 20px;
     margin: 0;
     text-align: end;
+    padding: 11px 12px;
 }
 
 .cloud-toggle {
@@ -221,6 +222,7 @@ ul {
     margin: 0;
     text-align: end;
     flex-direction: column-reverse;
+    padding: 11px 12px;
 }
 
 /* Previews */
