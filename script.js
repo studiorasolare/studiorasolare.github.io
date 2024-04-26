@@ -44,7 +44,7 @@ setInterval(function (){
     updateDefaultTime()
 }, 1000);
 
-// update loc, time and date for each person
+// updates loc, time and date for each person
 people.forEach(person => {
     person.addEventListener("click", ()=>{
         currentN = Number(person.getAttribute("data-order"));
@@ -113,5 +113,6 @@ let removeBodyContent = function () {
 
 logoDiv.addEventListener("click", ()=>{removeBodyContent(); peoplePage.style.cssText = "display:flex";})
 cardAbout.addEventListener("click", ()=>{removeBodyContent(); aboutPage.style.cssText = "display: flex"; })
+
 
 // Last written by Anna Maria Lewke, 23/04/2024 :)
