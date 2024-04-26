@@ -32,7 +32,7 @@ h1 {
 h2 {
     font-family: "Inter", sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     margin: 0;
 }
 
@@ -106,19 +106,30 @@ ul {
 .nav-options {
     display: flex;
     justify-content: space-between;
+    gap: 3vw;
     padding: 13px 0px 18px;
     width: 100%;
 }
 
-.nav-options > * {
+.nav-left {
+    flex: 0 1 900px;
+    display: flex;
+    gap: 4vw;
+}
+
+.nav-left > * {
     height: fit-content;
     margin: 0;
     padding: 0;
 }
 
-#news {
-    max-width: 90px;
+#about {
+    flex: 0 0 50px;
 }
+
+#news {
+    flex: 0 0 75px;
+} 
 
 #projects {
     display: flex;
@@ -128,16 +139,24 @@ ul {
     row-gap: 0;
 }
 
+.nav-right {
+    flex: 0 0 auto;
+    display: flex;
+    gap: 4vw;
+}
+
 #discover {
+    flex: 0 0 auto;
     max-width: 250px;
 }
 
 #contact {
-    max-width: 100px;
+    width: 70px;
 }
 
 #socials {
-    margin: 0px 50px 0px 0px;
+    margin: 0 2.8vw 0 0;
+    padding: 0;
 }
 
 /* Container: Widgets, Previews and People */
@@ -193,7 +212,7 @@ ul {
     background-size: cover;
     font-family: "Inter", sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     margin: 0;
     text-align: end;
     padding: 11px 12px;
@@ -218,7 +237,7 @@ ul {
     display: flex;
     font-family: "Inter", sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     margin: 0;
     text-align: end;
     flex-direction: column-reverse;
@@ -307,15 +326,15 @@ ul {
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-    padding: 50px;
-    column-gap: 55px;
+    padding: 50px 5.1vw 50px 4.5vw;
+    column-gap: 4.8vw;
     row-gap: 110px;
 }
 
 .person {
     color: #E9E9E9;
-    width: 100px;
-    height: 100px;
+    width: 5vw;
+    height: 7vw;
     position: relative;
 }
 
@@ -338,27 +357,32 @@ ul {
 }
 
 .person-1 {
-    width: 180px;
+    /* width: 180px; */
+    width: 11.3vw;
     transform: translate(-28%, -40%);
 }
 
 .person-2 {
-    width: 155px;
+    /* width: 155px; */
+    width: 10vw;
     transform: translate(-50%, -36%);
 }
 
 .person-3 {
-    width: 140px;
+    /* width: 140px; */
+    width: 9.3vw;
     transform: translate(-45%, -39%);
 }
 
 .person-4 {
-    width: 160px;
+    /* width: 160px; */
+    width: 10.5vw;
     transform: translate(-55%, -38%);
 }
 
 .person-5 {
-    width: 180px;
+    /* width: 180px; */
+    width: 11.3vw;
     transform: translate(-48%, -32%);
 }
 
@@ -376,12 +400,6 @@ ul {
     font-size: 24px;
 }
 
-.about-column img {
-    border-radius: 10px;
-    width: 100%;
-    height: auto;
-}
-
 .about-column {
     display: flex;
     flex-direction: column;
@@ -396,31 +414,51 @@ ul {
     align-items: stretch;
 }
 
-.row-only div {
+.ipad-only-1 {
+    flex: 0 0 53%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 100%;
+    width: 100%;
+}
+
+.ipad-only-3 {
+    flex: 0 0 66.66%;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    height: 100%;
+    width: 100%;
+}
+
+.card-img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 10px;
+    height: 100%;
     width: 100%;
+}
+
+.img-h-large {
+    height: 440px;
+}
+
+.img-h-small {
     height: 250px;
 }
 
-.c-size-m div {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-    width: 100%;
-    height: 100%;
+.img-w-medium {
+    width: 380px;
 }
 
-.c-size-s {
-    flex: 0 0 40%;
-    justify-content: stretch;
+.img-w-small {
+    width: 320px;
 }
 
-.c-size-s .card {
-    height: 100%;
+.img-sp-1 {
+    flex: 0 0 60%;
 }
 
 .big-card-body {
@@ -428,6 +466,108 @@ ul {
     flex-direction: row;
     gap: 10px;
     height: 100%;
+}
+
+#img-ord-1 {
+    background-image: url(images/estudiante-ladawards1.png);
+}
+#img-ord-2 {
+    background-image: url(images/miffy.png);
+}
+#img-ord-3 {
+    background-image: url(images/orasolare1.png);
+}
+#img-ord-4 {
+    background-image: url(images/orasolare3.png);
+}
+
+/* Responsive scale */
+
+/* 1470px and < */
+@media(max-width: 1470px){
+    #page-people {
+        padding: 50px 5vw 50px 3vw;
+        column-gap: 3.6vw;
+        row-gap: 110px;
+    }
+}
+
+/* 1280px and < */
+@media(max-width: 1280px){
+    .nav-left {
+        gap: 3vw;
+    }
+    .nav-right {
+        gap: 3vw;
+    }
+    #socials {
+        margin: 0;
+    }
+    .widgets {
+        flex: 0 1 250px;
+    }
+    .previews {
+        flex: 0 1 400px;
+    }
+    #page-people {
+        padding: 40px 3vw 40px 3vw;
+        column-gap: 3.5vw;
+        row-gap: 8vw;
+    }
+    #discover {
+        max-width: 230px;
+    }
+    h1 {
+        font-size: 3vw;
+    }
+}
+
+/* 1003px and < */
+@media(max-width: 1003px){
+    h4 {
+        font-size: 12px;
+    }
+    .about-row {
+        flex-direction: column;
+    }
+    .ipad-only-1 {
+        flex: 0 0 auto;
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+    .ipad-only-2 {
+        flex-direction: row;
+    }
+    .ipad-only-3 {
+        flex: 0 0 auto;
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+    .img-w-medium {
+        height: 200px;
+        width: 100%;
+    }
+    .img-w-small {
+        height: 200px;
+        width: 100%;
+    }
+    .img-sp-1 {
+        flex: 0 0 auto;
+    }
+    #img-ord-1 {
+        background-image: url(images/orasolare1.png);
+    }
+    #img-ord-2 {
+        background-image: url(images/orasolare3.png);
+    }
+    #img-ord-3 {
+        background-image: url(images/estudiante-ladawards1.png);
+    }
+    #img-ord-4 {
+        background-image: url(images/miffy.png);
+    }
 }
 
 /* Last written by Anna Maria Lewke, 23/04/2024 :) */
