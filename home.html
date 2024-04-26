@@ -18,33 +18,38 @@
             <img id="ora-logo" src="images/logo.svg">
         </div>
         <div class="nav-options">
-            <h4 id="about">this is us</h4>
-            <h4 id="news">news in milan</h4>
-            <!--could be js-->
-            <ul id="projects">
-                <li>project 1</li>
-                <li>-</li>
-                <li>project 2</li>
-                <li>-</li>
-                <li>project 3</li>
-                <li>project 4</li>
-                <li>-</li>
-                <li>project 5</li>
-                <li>-</li>
-                <li>project 6</li>
-                <li>project 7</li>
-                <li>-</li>
-                <li>project 8</li>
-                <li>-</li>
-                <li>project 9</li>
-            </ul>
-            <h4 id="discover">discover the evolution of our designs over the past weeks</h4>
-            <h4 id="archive">archive</h4>
-            <h4 id="contact">contact us</h4>
-            <ul id="socials">
-                <li>instagram</li>
-                <li>tiktok</li>
-            </ul>
+            <div class="nav-left">
+                <h4 id="about">this is us</h4>
+                <h4 id="news">news in milan</h4>
+                <ul id="projects">
+                    <h4>project 1</h4>
+                    <h4>-</h4>
+                    <h4>project 2</h4>
+                    <h4>-</h4>
+                    <h4>project 3</h4>
+                    <h4>-</h4>
+                    <h4>project 4</h4>
+                    <h4>-</h4>
+                    <h4>project 5</h4>
+                    <h4>-</h4>
+                    <h4>project 6</h4>
+                    <h4>-</h4>
+                    <h4>project 7</h4>
+                    <h4>-</h4>
+                    <h4>project 8</h4>
+                    <h4>-</h4>
+                    <h4>project 9</h4>
+                </ul>
+                <h4 id="discover">discover the evolution of our designs over the past weeks</h4>
+            </div>
+            <div class="nav-right">
+                <h4 id="archive">archive</h4>
+                <h4 id="contact">contact us</h4>
+                <ul id="socials">
+                    <h4>instagram</h4>
+                    <h4>tiktok</h4>
+                </ul>
+            </div>
         </div>
     </div>
 <!-- CONTAINER -->
@@ -186,7 +191,7 @@
             </div>
             <div id="page-about">
                 <div class="about-row">
-                    <div class="about-column c-size-s">
+                    <div class="about-column">
                         <div class="card">
                             <div class="card-header">
                                 <p>This is us</p>
@@ -207,12 +212,14 @@
                                 </div>    
                             </div>
                         </div>
-                        <img src="images/orasolare2.png">
-                        <img src="images/estudiante-ladawards1.png">
-                        <img src="images/miffy.png">
+                        <div class="ipad-only-1">
+                        <div class="card-img img-w-small" style="background-image: url(images/orasolare2.png);"></div>
+                        <div class="card-img img-w-small" id="img-ord-1" ></div>
+                        </div>
+                        <div class="card-img img-w-small" id="img-ord-2" ></div>
                     </div>
                     <div class="about-column">
-                        <img src="images/orasolare1.png">
+                        <div class="card-img img-h-large" id="img-ord-3" ></div>
                         <div class="card">
                             <div class="card-header">
                                 <p>Awards</p>
@@ -230,7 +237,7 @@
                                 </div>    
                             </div>
                         </div>
-                        <img src="images/estudiante-ladawards2.png">
+                        <div class="card-img img-h-large" style="background-image: url(images/estudiante-ladawards2.png);"></div>
                         <div class="card">
                             <div class="card-header">
                                 <p>Awards</p>
@@ -250,8 +257,8 @@
                     </div>
                 </div>
                 <div class="about-row row-only">
-                    <div style="background-image: url(images/orasolare3.png); flex: 0 0 70%;"></div>
-                    <div style="background-image: url(images/orasolare4.png);"></div>
+                    <div class="card-img img-h-small img-sp-1" id="img-ord-4" ></div>
+                    <div class="card-img img-h-small" style="background-image: url(images/orasolare4.png);"></div>
                 </div>
                 <div class="about-row">
                     <div class="about-column">
@@ -287,17 +294,19 @@
                                 </div>    
                             </div>
                         </div>
-                        <img src="images/orasolare6.png">
+                        <div class="card-img img-h-large" style="background-image: url(images/orasolare6.png);"></div>
                     </div>
-                    <div class="about-column c-size-m">
-                        <img src="images/orasolare5.png">
-                        <div style="background-image: url(images/orasolare7.png);"></div>
+                    <div class="about-column ipad-only-2">
+                        <div class="card-img img-w-medium" style="background-image: url(images/orasolare5.png);"></div>
+                        <div class="card-img img-w-medium" style="background-image: url(images/orasolare7.png);"></div>
                     </div>
                 </div>
                 <div class="about-row row-only">
-                    <div style="background-image: url(images/orasolare8.png);"></div>
-                    <div style="background-image: url(images/orasolare9.png);"></div>
-                    <div style="background-image: url(images/orasolare10.png);"></div>
+                    <div class="card-img img-h-small" style="background-image: url(images/orasolare8.png);"></div>
+                    <div class="ipad-only-3">
+                    <div class="card-img img-h-small" style="background-image: url(images/orasolare9.png);"></div>
+                    <div class="card-img img-h-small" style="background-image: url(images/orasolare10.png);"></div>
+                    </div>
                 </div>
             </div>
 </div> 
