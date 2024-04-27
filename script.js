@@ -68,6 +68,36 @@ people.forEach(person => {
     })
 });
 
+// Projects list
+
+let projects = [
+    {name:"Make it Endless", url:""},
+    {name:"Bloom Branding", url:""},
+    {name:"Cycle Jeans", url:""},
+    {name:"Ray Tattoo Studio", url:""},
+    {name:"Being Bold", url:""},
+    {name:"Tekairos", url:""},
+    {name:"Amish Refresh", url:""},
+    {name:"Schrotthagen", url:""},
+    {name:"Folder App", url:""},
+]
+
+const projectList = Array.from(document.querySelectorAll(".project"));
+
+projectList.forEach(project => {
+    project.addEventListener("mouseover", ()=>{
+        currentP = Number(project.getAttribute("data-project"));
+        project.innerHTML = projects[currentP].name;
+    });
+    project.addEventListener("mouseout", ()=>{
+        function revertProjectName() {
+        projectNumber = Number(project.getAttribute("data-project"));
+        project.innerHTML = "project " + (projectNumber + 1);
+        }
+        setTimeout(revertProjectName,200);
+    });
+});
+
 // Cloud, Party and Screen Toggle
 
 let isCloudy = false;
@@ -108,11 +138,12 @@ let removeBodyContent = function () {
     }
     if (aboutPage.style.cssText = "display: flex") {
         aboutPage.style.cssText = "display: none";
+        cardAbout.style.cssText = "background-color: #E9E9E9; cursor: pointer";
     }
   };
 
 logoDiv.addEventListener("click", ()=>{removeBodyContent(); peoplePage.style.cssText = "display:flex";})
-cardAbout.addEventListener("click", ()=>{removeBodyContent(); aboutPage.style.cssText = "display: flex"; })
+cardAbout.addEventListener("click", ()=>{removeBodyContent(); aboutPage.style.cssText = "display: flex"; cardAbout.style.cssText = "background-color: #e0e0e0;cursor: default";})
 
 
 // Last written by Anna Maria Lewke, 23/04/2024 :)
