@@ -101,6 +101,7 @@ ul {
 #ora-logo {
     margin: 0;
     width: 100%;
+    cursor: pointer;
 }
 
 .nav-options {
@@ -121,15 +122,22 @@ ul {
     height: fit-content;
     margin: 0;
     padding: 0;
+    cursor: pointer;
 }
 
 #about {
     flex: 0 0 50px;
 }
+#about:hover {
+    color: #626262;
+}
 
 #news {
     flex: 0 0 75px;
 } 
+#news:hover {
+    color: #626262;
+}
 
 #projects {
     display: flex;
@@ -139,24 +147,45 @@ ul {
     row-gap: 0;
 }
 
-.nav-right {
-    flex: 0 0 auto;
-    display: flex;
-    gap: 4vw;
+.project:hover {
+    color: #626262;
 }
 
 #discover {
     flex: 0 0 auto;
     max-width: 250px;
 }
+#discover:hover {
+    color: #626262;
+}
+
+.nav-right {
+    flex: 0 0 auto;
+    display: flex;
+    gap: 4vw;
+}
+
+.nav-right > * {
+    cursor: pointer;
+}
 
 #contact {
     width: 70px;
+}
+#contact:hover {
+    color: #626262;
+}
+
+#archive:hover {
+    color: #626262;
 }
 
 #socials {
     margin: 0 2.8vw 0 0;
     padding: 0;
+}
+#socials > *:hover {
+    color: #626262;
 }
 
 /* Container: Widgets, Previews and People */
@@ -216,6 +245,10 @@ ul {
     margin: 0;
     text-align: end;
     padding: 11px 12px;
+    cursor: pointer;
+}
+.cloud-party > *:hover {
+    background-color: #e0e0e0;
 }
 
 .cloud-toggle {
@@ -242,7 +275,9 @@ ul {
     text-align: end;
     flex-direction: column-reverse;
     padding: 11px 12px;
+    cursor: pointer;
 }
+
 
 /* Previews */
 
@@ -264,6 +299,10 @@ ul {
 
 .previews > * {
     height: 98px;
+    cursor: pointer;
+}
+.previews > *:hover {
+    background-color: #e0e0e0;
 }
 
 .card-header {
@@ -336,6 +375,10 @@ ul {
     width: 5vw;
     height: 7vw;
     position: relative;
+    cursor: pointer;
+}
+.person:hover {
+    color: #909090;
 }
 
 .person h1 {
