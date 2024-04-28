@@ -68,36 +68,6 @@ people.forEach(person => {
     })
 });
 
-// Projects list
-
-let projects = [
-    {name:"Make it Endless", url:""},
-    {name:"Bloom Branding", url:""},
-    {name:"Cycle Jeans", url:""},
-    {name:"Ray Tattoo Studio", url:""},
-    {name:"Being Bold", url:""},
-    {name:"Tekairos", url:""},
-    {name:"Amish Refresh", url:""},
-    {name:"Schrotthagen", url:""},
-    {name:"Folder App", url:""},
-]
-
-const projectList = Array.from(document.querySelectorAll(".project"));
-
-projectList.forEach(project => {
-    project.addEventListener("mouseover", ()=>{
-        currentP = Number(project.getAttribute("data-project"));
-        project.innerHTML = projects[currentP].name;
-    });
-    project.addEventListener("mouseout", ()=>{
-        function revertProjectName() {
-        projectNumber = Number(project.getAttribute("data-project"));
-        project.innerHTML = "project " + (projectNumber + 1);
-        }
-        setTimeout(revertProjectName,200);
-    });
-});
-
 // Cloud, Party and Screen Toggle
 
 let isCloudy = false;
@@ -122,14 +92,22 @@ do {
     screenDiv.style.cssText = 'color: white; background: black;';
 } while (isDark = false);
 
-// Body Content
+// Links and Pages
 
-let logoDiv = document.getElementById("ora-logo");
+// body content
+let bodyContent = document.getElementById("body-cont");
 let peoplePage = document.getElementById("page-people");
 let aboutPage = document.getElementById("page-about");
-let bodyContent = document.getElementById("body-cont");
 
+const projectList = Array.from(document.querySelectorAll(".project"));
+const projectPages = Array.from(document.querySelectorAll(".page-project"))
+
+// cards
 let cardAbout = document.getElementById("card-about");
+
+// nav elements
+let logoDiv = document.getElementById("ora-logo");
+let aboutNav = document.getElementById("about");
 
 let removeBodyContent = function () {
     bodyContent.scrollTo(0,0);
@@ -138,12 +116,56 @@ let removeBodyContent = function () {
     }
     if (aboutPage.style.cssText = "display: flex") {
         aboutPage.style.cssText = "display: none";
-        cardAbout.style.cssText = "background-color: #E9E9E9; cursor: pointer";
+        cardAbout.style.cssText = "background-color: ; cursor: pointer";
+        aboutNav.style.cssText = "color: ; cursor: pointer";
     }
+    projectPages.forEach(projectPage => {
+        if (projectPage.style.cssText = "display: flex"){
+            projectPage.style.cssText = "display: none"
+            projectList.forEach(project => {
+                project.style.cssText = "color: ; cursor: pointer";
+            });
+        }
+    });
   };
 
-logoDiv.addEventListener("click", ()=>{removeBodyContent(); peoplePage.style.cssText = "display:flex";})
-cardAbout.addEventListener("click", ()=>{removeBodyContent(); aboutPage.style.cssText = "display: flex"; cardAbout.style.cssText = "background-color: #e0e0e0;cursor: default";})
+// Projects list
+let projects = [
+    {name:"Make it Endless"},
+    {name:"Bloom Branding"},
+    {name:"Cycle Jeans"},
+    {name:"Ray Tattoo Studio"},
+    {name:"Being Bold"},
+    {name:"Tekairos"},
+    {name:"Amish Refresh"},
+    {name:"Schrotthagen"},
+    {name:"Folder App"},
+]
 
+projectList.forEach(project => {
+    project.addEventListener("mouseover", ()=>{
+        currentP = Number(project.getAttribute("data-project"));
+        project.innerHTML = projects[currentP].name;
+    });
+    project.addEventListener("mouseout", ()=>{
+        function revertProjectName() {
+            pNumber = Number(project.getAttribute("data-project"));    
+            project.innerHTML = "project " + (pNumber + 1);
+        }
+        setTimeout(revertProjectName,200);
+    });
+    project.addEventListener("click",()=>{
+        curP = Number(project.getAttribute("data-project"));
+        removeBodyContent();
+        projectPages[curP].style.cssText = "display: flex";
+        project.innerHTML = projects[curP].name;
+        project.style.cssText = "color: #626262; cursor: default";
+    });
+});
+
+logoDiv.addEventListener("click", ()=>{removeBodyContent(); peoplePage.style.cssText = "display:flex";})
+
+cardAbout.addEventListener("click", ()=>{removeBodyContent(); aboutPage.style.cssText = "display: flex"; cardAbout.style.cssText = "background-color: #e0e0e0;cursor: default"; aboutNav.style.cssText = "color: #626262; cursor: default";})
+aboutNav.addEventListener("click", ()=>{removeBodyContent(); aboutPage.style.cssText = "display: flex"; cardAbout.style.cssText = "background-color: #e0e0e0;cursor: default"; aboutNav.style.cssText = "color: #626262; cursor: default";})
 
 // Last written by Anna Maria Lewke, 23/04/2024 :)
