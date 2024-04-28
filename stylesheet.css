@@ -359,7 +359,7 @@ ul {
     display: none; /* Safari and Chrome */ 
 }
 
-/* People (Home) Page*/
+/* Page People (Home)*/
 
 #page-people {
     display: flex;
@@ -429,7 +429,7 @@ ul {
     transform: translate(-48%, -32%);
 }
 
-/* About Page */
+/* Page About */
 
 #page-about {
     display: none;
@@ -457,22 +457,32 @@ ul {
     align-items: stretch;
 }
 
-.ipad-only-1 {
-    flex: 0 0 53%;
-    display: flex;
+/* Page Project*/
+
+.page-project {
+    display: none;
     flex-direction: column;
+    align-content: flex-start;
     gap: 15px;
-    height: 100%;
     width: 100%;
 }
 
-.ipad-only-3 {
-    flex: 0 0 66.66%;
+.page-project h3 {
+    font-size: 24px;
+}
+
+.p-column {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.p-row {
     display: flex;
     flex-direction: row;
     gap: 15px;
-    height: 100%;
     width: 100%;
+    align-items: stretch;
 }
 
 .card-img {
@@ -484,12 +494,22 @@ ul {
     width: 100%;
 }
 
+/* Pages (general) */
+
 .img-h-large {
     height: 440px;
 }
 
+.img-h-medium {
+    height: 320px;
+}
+
 .img-h-small {
     height: 250px;
+}
+
+.img-w-large {
+    width: 445px;
 }
 
 .img-w-medium {
@@ -509,6 +529,26 @@ ul {
     flex-direction: row;
     gap: 10px;
     height: 100%;
+}
+
+/* Page About ipad responsive*/
+
+.ipad-only-1 {
+    flex: 0 0 53%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 100%;
+    width: 100%;
+}
+
+.ipad-only-3 {
+    flex: 0 0 66.66%;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    height: 100%;
+    width: 100%;
 }
 
 #img-ord-1 {
