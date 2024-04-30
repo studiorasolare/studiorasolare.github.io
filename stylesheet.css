@@ -1,6 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+/* dark and light mode */
+
+[data-theme="light"] {
+    --color-bg: #ffffff;
+    --color-fg: #2F2F2F;
+    --color-p: #626262;
+    --color-card-bg: #E9E9E9;
+    --color-card-hv: #E0E0E0;
+}
+
+[data-theme="dark"] {
+    --color-bg: #111111;
+    --color-fg: #E9E9E9;
+    --color-p: #909090;
+    --color-card-bg: #222222;
+    --color-card-hv: #2E2E2E;
+}
+
 /* General */
 
 html {
@@ -13,13 +31,14 @@ body {
     height: 100%;
     margin: 0px;
     cursor: default;
+    background-color: var(--color-bg);
 }
 
 p {
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 14px;
-    color: #626262;
+    color: var(--color-p);
     margin: 0;
 }
 
@@ -34,6 +53,7 @@ h2 {
     font-weight: 400;
     font-size: 18px;
     margin: 0;
+    color: var(--color-fg);
 }
 
 h3 {
@@ -41,6 +61,7 @@ h3 {
     font-weight: 700;
     font-size: 15px;
     margin: 0;
+    color: var(--color-fg);
 }
 
 h4 {
@@ -48,6 +69,7 @@ h4 {
     text-transform: uppercase;
     font-size: 14px;
     margin: 0;
+    color: var(--color-fg);
 }
 
 ul {
@@ -89,7 +111,7 @@ ul {
 }
 
 #time-logo {
-    color: white;
+    color: var(--color-bg);
     margin: 0;
     position: absolute;
     top: 60%;
@@ -129,14 +151,14 @@ ul {
     flex: 0 0 50px;
 }
 #about:hover {
-    color: #626262;
+    color: var(--color-p);
 }
 
 #news {
     flex: 0 0 75px;
 } 
 #news:hover {
-    color: #626262;
+    color: var(--color-p);
 }
 
 #projects {
@@ -148,7 +170,7 @@ ul {
 }
 
 .project:hover {
-    color: #626262;
+    color: var(--color-p);
 }
 
 #discover {
@@ -156,7 +178,7 @@ ul {
     max-width: 250px;
 }
 #discover:hover {
-    color: #626262;
+    color: var(--color-p);
 }
 
 .nav-right {
@@ -173,11 +195,11 @@ ul {
     width: 70px;
 }
 #contact:hover {
-    color: #626262;
+    color: var(--color-p);
 }
 
 #archive:hover {
-    color: #626262;
+    color: var(--color-p);
 }
 
 #socials {
@@ -185,7 +207,7 @@ ul {
     padding: 0;
 }
 #socials > *:hover {
-    color: #626262;
+    color: var(--color-p);
 }
 
 /* Container: Widgets, Previews and People */
@@ -202,7 +224,7 @@ ul {
 }
 
 .card {
-    background-color: #E9E9E9;
+    background-color: var(--color-card-bg);
     padding: 15px 12px;
     border-radius: 10px;
     display: flex;
@@ -248,24 +270,26 @@ ul {
     cursor: pointer;
 }
 .cloud-party > *:hover {
-    background-color: #e0e0e0;
+    background-color: var(--color-card-hv);
 }
 
-.cloud-toggle {
+#cloud-toggle {
     flex: 1 1 0;
     display: flex;
     flex-direction: column-reverse;
     background-image: url(images/clouds.png);
+    color: var(--color-fg);
 }
 
-.party-toggle {
+#party-toggle {
     flex: 1 1 0;
     display: flex;
     flex-direction: column-reverse;
     background-image: url(images/emojis.png);
+    color: var(--color-fg); 
 }
 
-.screen-toggle {
+#screen-toggle {
     height: 70px;
     display: flex;
     font-family: "Inter", sans-serif;
@@ -276,6 +300,8 @@ ul {
     flex-direction: column-reverse;
     padding: 11px 12px;
     cursor: pointer;
+    color: var(--color-bg); 
+    background: var(--color-fg);
 }
 
 
@@ -302,7 +328,7 @@ ul {
     cursor: pointer;
 }
 .previews > *:hover {
-    background-color: #e0e0e0;
+    background-color: var(--color-card-hv);
 }
 
 .card-header {
@@ -371,14 +397,14 @@ ul {
 }
 
 .person {
-    color: #E9E9E9;
+    color: var(--color-bg);
     width: 5vw;
     height: 7vw;
     position: relative;
     cursor: pointer;
 }
 .person:hover {
-    color: #909090;
+    color: var(--color-p);
 }
 
 .person h1 {
@@ -429,9 +455,9 @@ ul {
     transform: translate(-48%, -32%);
 }
 
-/* Page About */
+/* Page Info */
 
-#page-about {
+.page-info {
     display: none;
     flex-direction: column;
     align-content: flex-start;
@@ -439,17 +465,17 @@ ul {
     width: 100%;
 }
 
-#page-about h3 {
+.page-info h3 {
     font-size: 24px;
 }
 
-.about-column {
+.info-column {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-.about-row {
+.info-row {
     display: flex;
     flex-direction: row;
     gap: 15px;
@@ -531,7 +557,7 @@ ul {
     height: 100%;
 }
 
-/* Page About ipad responsive*/
+/* Page Info ipad responsive*/
 
 .ipad-only-1 {
     flex: 0 0 53%;
@@ -610,7 +636,7 @@ ul {
     h4 {
         font-size: 12px;
     }
-    .about-row {
+    .info-row {
         flex-direction: column;
     }
     .ipad-only-1 {
@@ -653,4 +679,4 @@ ul {
     }
 }
 
-/* Last written by Anna Maria Lewke, 23/04/2024 :) */
+/* Last written by Anna Maria Lewke, 30/04/2024 :) */
