@@ -433,8 +433,8 @@ ul {
 
 .person-2 {
     /* width: 155px; */
-    width: 10vw;
-    transform: translate(-50%, -36%);
+    width: 9.5vw;
+    transform: translate(-51%, -37%);
 }
 
 .person-3 {
@@ -548,6 +548,10 @@ ul {
 
 .img-sp-1 {
     flex: 0 0 60%;
+}
+
+.img-sp-2 {
+    flex: 0 0 57%;
 }
 
 .big-card-body {
