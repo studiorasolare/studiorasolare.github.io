@@ -19,6 +19,10 @@ let places = [
     {name: "Bangkok, Thailand", timezone: "Asia/Bangkok"},
     {name: "Amsterdam, Netherlands", timezone: "Europe/Amsterdam"},
     {name: "Johannesburg, South Africa", timezone: "Africa/Johannesburg"},
+    {name: "Dakar, Senegal", timezone: "Africa/Dakar"},
+    {name: "Doha, Qatar", timezone: "Asia/Qatar"},
+    {name: "Berlin, Germany", timezone: "Europe/Berlin"},
+    {name: "Moscow, Russia", timezone: "Europe/Moscow"},
 ];
 
 const people = Array.from(document.querySelectorAll(".person"));
@@ -94,7 +98,6 @@ let removeBodyContent = function () {
             page.style.cssText = "display: none"; 
             infoNav.forEach(nav=>nav.style.cssText = "color: ; cursor: pointer");
             infoCards.forEach(card => card.style.cssText = "background-color: ; cursor: pointer");
-            
         }
     });
     projectPages.forEach(page => {
