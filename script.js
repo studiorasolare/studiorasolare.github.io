@@ -100,7 +100,8 @@ let peoplePage = document.getElementById("page-people");
 let aboutPage = document.getElementById("page-about");
 
 const projectList = Array.from(document.querySelectorAll(".project"));
-const projectPages = Array.from(document.querySelectorAll(".page-project"))
+const projectPages = Array.from(document.querySelectorAll(".page-project"));
+const projectCards = Array.from(document.querySelectorAll(".card-proj"));
 
 // cards
 let cardAbout = document.getElementById("card-about");
@@ -124,6 +125,9 @@ let removeBodyContent = function () {
             projectPage.style.cssText = "display: none"
             projectList.forEach(project => {
                 project.style.cssText = "color: ; cursor: pointer";
+            });
+            projectCards.forEach(card => {
+                card.style.cssText = "background-color: ; cursor: pointer";
             });
         }
     });
@@ -161,6 +165,15 @@ projectList.forEach(project => {
         project.innerHTML = projects[curP].name;
         project.style.cssText = "color: #626262; cursor: default";
     });
+});
+
+projectCards.forEach(card => {
+    card.addEventListener("click",()=>{
+        currentCard = Number(card.getAttribute("data-p-card"));
+        removeBodyContent();
+        projectPages[currentCard].style.cssText = "display: flex";
+        card.style.cssText = "background-color: #e0e0e0;cursor: default";
+    })
 });
 
 logoDiv.addEventListener("click", ()=>{removeBodyContent(); peoplePage.style.cssText = "display:flex";})
