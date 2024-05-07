@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-@import url('satoshi.css');
+@import url(satoshi.css);
 
 /* dark and light mode */
 
 [data-theme="light"] {
     --color-bg: #ffffff;
-    --color-fg: #2F2F2F;
+    --color-fg: #111111;
     --color-p: #626262;
     --color-card-bg: #E9E9E9;
     --color-card-hv: #E0E0E0;
@@ -36,11 +36,11 @@ body {
 }
 
 p {
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
+    font-family: "Satoshi-Regular", sans-serif;
     font-size: 14px;
     color: var(--color-p);
     margin: 0;
+    line-height: 1.25;
 }
 
 h1 {
@@ -58,8 +58,7 @@ h2 {
 }
 
 h3 {
-    font-family: "Inter", sans-serif;
-    font-weight: 700;
+    font-family: "Satoshi-Bold", sans-serif;
     font-size: 15px;
     margin: 0;
     color: var(--color-fg);
@@ -131,7 +130,7 @@ ul {
     display: flex;
     justify-content: space-between;
     gap: 3vw;
-    padding: 13px 0px 18px;
+    padding: 13px 0px 26px;
     width: 100%;
 }
 
@@ -165,8 +164,8 @@ ul {
 #projects {
     display: flex;
     flex-wrap: wrap;
-    max-width: 350px;
-    column-gap: 5px;
+    max-width: 280px;
+    column-gap: 6px;
     row-gap: 0;
 }
 
@@ -233,6 +232,10 @@ ul {
     gap: 8px;
 }
 
+.c-big {
+    padding: 23px 25px 26px 25px;
+}
+
 /* Widgets */
 
 .widgets {
@@ -247,8 +250,14 @@ ul {
 .widgets > * {
     height: fit-content;
 }
+
+.loc-widget {
+    padding: 23px 17px 20px 17px;
+}
+
 .date-widget {
     gap: 0;
+    padding: 33px 17px 20px 17px;
 }
 
 .cloud-party {
@@ -278,7 +287,7 @@ ul {
     flex: 1 1 0;
     display: flex;
     flex-direction: column-reverse;
-    background-image: url(images/clouds.png);
+    background-image: url(../images/clouds.png);
     color: var(--color-fg);
 }
 
@@ -286,7 +295,7 @@ ul {
     flex: 1 1 0;
     display: flex;
     flex-direction: column-reverse;
-    background-image: url(images/emojis.png);
+    background-image: url(../images/emojis.png);
     color: var(--color-fg); 
 }
 
@@ -325,7 +334,7 @@ ul {
 }
 
 .previews > * {
-    height: 98px;
+    height: 108px;
     cursor: pointer;
 }
 .previews > *:hover {
@@ -441,7 +450,7 @@ ul {
 .person-3 {
     /* width: 140px; */
     width: 9.3vw;
-    transform: translate(-45%, -39%);
+    transform: translate(-49%, -39%);
 }
 
 .person-4 {
@@ -583,16 +592,16 @@ ul {
 }
 
 #img-ord-1 {
-    background-image: url(images/estudiante-ladawards1.png);
+    background-image: url(../images/estudiante-ladawards1.png);
 }
 #img-ord-2 {
-    background-image: url(images/miffy.png);
+    background-image: url(../images/estudiante-ladawards1.png);
 }
 #img-ord-3 {
-    background-image: url(images/orasolare1.png);
+    background-image: url(../images/orasolare1.png);
 }
 #img-ord-4 {
-    background-image: url(images/orasolare3.png);
+    background-image: url(../images/orasolare3.png);
 }
 
 /* Responsive scale */
