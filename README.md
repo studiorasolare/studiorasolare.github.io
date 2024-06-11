@@ -1,5 +1,5 @@
 ---
-permalink: /home.html
+permalink: /index.html
 ---
 # ora-solare
 
