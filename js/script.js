@@ -92,6 +92,7 @@ let removeBodyContent = function () {
     bodyContent.scrollTo(0,0);
     if (peoplePage.style.cssText = "display: flex") {
         peoplePage.style.cssText = "display: none";
+        bodyContent.style.cssText = "overflow-y: scroll";
     }
     infoPages.forEach(page => {
         if (page.style.cssText = "display: flex") {
@@ -117,6 +118,7 @@ infoNav.forEach(nav => {
     nav.addEventListener("click",()=>{
         currentN = Number(nav.getAttribute("data-order"));
         removeBodyContent();
+        bodyContent.style.cssText = "overflow-y: scroll";
         infoPages[currentN].style.cssText = "display: flex";
         nav.style.cssText = "color: var(--color-p); cursor: default";
         infoCards[currentN].style.cssText = "background-color: var(--color-card-hv);cursor: default";
@@ -127,6 +129,7 @@ infoCards.forEach(card => {
     card.addEventListener("click",()=>{
         currentCard = Number(card.getAttribute("data-order"));
         removeBodyContent();
+        bodyContent.style.cssText = "overflow-y: scroll";
         infoPages[currentCard].style.cssText = "display: flex";
         card.style.cssText = "background-color: var(--color-card-hv);cursor: default";
     })
@@ -160,6 +163,7 @@ projectList.forEach(project => {
     project.addEventListener("click",()=>{
         curP = Number(project.getAttribute("data-order"));
         removeBodyContent();
+        bodyContent.style.cssText = "overflow-y: scroll";
         projectPages[curP].style.cssText = "display: flex";
         project.innerHTML = projects[curP].name;
         project.style.cssText = "color: var(--color-p); cursor: default";
@@ -171,13 +175,14 @@ projectCards.forEach(card => {
     card.addEventListener("click",()=>{
         currentN = Number(card.getAttribute("data-order"));
         removeBodyContent();
+        bodyContent.style.cssText = "overflow-y: scroll";
         projectPages[currentN].style.cssText = "display: flex";
         card.style.cssText = "background-color: var(--color-card-hv);cursor: default";
         projectList[currentN].style.cssText = "color: var(--color-p); cursor: default";
     })
 });
 
-logoDiv.addEventListener("click", ()=>{removeBodyContent(); peoplePage.style.cssText = "display:flex";})
+logoDiv.addEventListener("click", ()=>{removeBodyContent(); peoplePage.style.cssText = "display:flex"; bodyContent.style.cssText = "overflow-y: hidden";})
 
 // Cloud, Party toggle
 
@@ -190,6 +195,7 @@ const pImg2 = Array.from(document.querySelectorAll(".person-2"));
 const pImg3 = Array.from(document.querySelectorAll(".person-3"));
 const pImg4 = Array.from(document.querySelectorAll(".person-4"));
 const pImg5 = Array.from(document.querySelectorAll(".person-5"));
+const pImg6 = Array.from(document.querySelectorAll(".person-6"));
 
 function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark }) {
     if (localStorageTheme !== null) {
@@ -209,25 +215,30 @@ buttonEl.innerText = newCta;
 const logoColor = isDark ? "images/logo-dark.svg" : "images/logo-light.svg";
 logoDiv.src = logoColor;
 pImg1.forEach(img => {
-    const imgColor = isDark ? "images/person1-dark.svg" : "images/person1-light.svg";
+    const imgColor = isDark ? "images/people/person1-dark.svg" : "images/people/person1-light.svg";
     img.src = imgColor;
 })
 pImg2.forEach(img => {
-    const imgColor = isDark ? "images/person2-dark.svg" : "images/person2-light.svg";
+    const imgColor = isDark ? "images/people/person2-dark.svg" : "images/people/person2-light.svg";
     img.src = imgColor;
 })
 pImg3.forEach(img => {
-    const imgColor = isDark ? "images/person3-dark.svg" : "images/person3-light.svg";
+    const imgColor = isDark ? "images/people/person3-dark.svg" : "images/people/person3-light.svg";
     img.src = imgColor;
 })
 pImg4.forEach(img => {
-    const imgColor = isDark ? "images/person4-dark.svg" : "images/person4-light.svg";
+    const imgColor = isDark ? "images/people/person4-dark.svg" : "images/people/person4-light.svg";
     img.src = imgColor;
 })
 pImg5.forEach(img => {
-    const imgColor = isDark ? "images/person5-dark.svg" : "images/person5-light.svg";
+    const imgColor = isDark ? "images/people/person5-dark.svg" : "images/people/person5-light.svg";
     img.src = imgColor;
 })
+pImg6.forEach(img => {
+    const imgColor = isDark ? "images/people/person6-dark.svg" : "images/people/person6-light.svg";
+    img.src = imgColor;
+})
+
 }
 
 function updateThemeOnHtmlEl({ theme }) {
