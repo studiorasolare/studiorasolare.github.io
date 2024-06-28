@@ -45,7 +45,7 @@ p {
 
 h1 {
     font-family: "Archivo Black", sans-serif;
-    font-size: 43px;
+    font-size: 38px;
     margin: 0;
 }
 
@@ -221,6 +221,7 @@ ul {
     padding: 0px 15px;
     height: 0vh;
     gap: 15px;
+    overflow: visible;
 }
 
 .card {
@@ -239,7 +240,7 @@ ul {
 /* Widgets */
 
 .widgets {
-    flex: 0 0 250px;
+    flex: 0 0 280px;
     width: 100%;
     height: 100%;
     display: flex;
@@ -318,11 +319,12 @@ ul {
 /* Previews */
 
 .previews {
-    flex: 0 0 400px;
+    flex: 0 0 460px;
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    overflow: visible;
     overflow-y: scroll;
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
     scrollbar-width: none;  /* Firefox */
@@ -385,7 +387,7 @@ ul {
 .body-content {
     flex: 1 1 700px;
     overflow: visible;
-    overflow-y: scroll;
+    overflow-y: hidden;
     -ms-overflow-style: none;   /* Internet Explorer 10+ */
     scrollbar-width: none;  /* Firefox */
     padding-bottom: 15px;
@@ -399,11 +401,19 @@ ul {
 
 #page-people {
     display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    padding: 50px 5.1vw 50px 4.5vw;
-    column-gap: 4.8vw;
-    row-gap: 110px;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 4vw 50px 4vw;
+    gap: 40px;
+    overflow: visible;
+}
+
+#people-row {
+    display: flex;
+    flex-direction: row;
+    gap: 3.5vw;
+    overflow: visible;
+    width: fit-content;
 }
 
 .person {
@@ -412,6 +422,8 @@ ul {
     height: 7vw;
     position: relative;
     cursor: pointer;
+    overflow: visible;
+
 }
 .person:hover {
     color: var(--color-p);
@@ -433,36 +445,38 @@ ul {
     top: 50%;
     left: 50%;
     margin: 0;
+    overflow: visible;
+
 }
 
 .person-1 {
-    /* width: 180px; */
-    width: 11.3vw;
+    width: 8.5vw;
     transform: translate(-28%, -40%);
 }
 
 .person-2 {
-    /* width: 155px; */
-    width: 9.5vw;
+    width: 6.7vw;
     transform: translate(-51%, -37%);
 }
 
 .person-3 {
-    /* width: 140px; */
-    width: 9.3vw;
+    width: 6.7vw;
     transform: translate(-49%, -39%);
 }
 
 .person-4 {
-    /* width: 160px; */
-    width: 10.5vw;
+    width: 7.7vw;
     transform: translate(-55%, -38%);
 }
 
 .person-5 {
-    /* width: 180px; */
-    width: 11.3vw;
+    width: 8.5vw;
     transform: translate(-48%, -32%);
+}
+
+.person-6 {
+    width: 9.5vw;
+    transform: translate(-42%, -35%);
 }
 
 /* Page Info */
@@ -607,11 +621,48 @@ ul {
 /* Responsive scale */
 
 /* 1470px and < */
-@media(max-width: 1470px){
+@media(max-width: 1490px){
+    .previews {
+        flex: 0 0 30vw;
+    }
     #page-people {
-        padding: 50px 5vw 50px 3vw;
-        column-gap: 3.6vw;
-        row-gap: 110px;
+        gap: 45px;
+        padding: 27px 3.5vw 50px 3.5vw;
+    }
+    #people-row {
+        justify-content: space-between;
+    }
+    .widgets {
+        flex: 0 0 17.1vw;
+    }
+}
+
+/* 1440px and < */
+@media(max-width: 1440px){
+    #people-row {
+        width: 100%;
+    }
+    #page-people {
+        justify-content: space-between;
+        padding: 27px 3.5vw 70px 3.5vw;
+    }
+    .person-1 {
+        width: 9.3vw;
+    }
+    .person-2 {
+        width: 7.5vw;
+    }
+    .person-3 {
+        width: 7.5vw;
+    }
+    .person-4 {
+        width: 8.5vw;
+    }
+    .person-5 {
+        width: 9.3vw;
+    }
+    .person-6 {
+        width: 10.3vw;
     }
 }
 
@@ -632,11 +683,6 @@ ul {
     .previews {
         flex: 0 1 400px;
     }
-    #page-people {
-        padding: 40px 3vw 40px 3vw;
-        column-gap: 3.5vw;
-        row-gap: 8vw;
-    }
     #discover {
         max-width: 230px;
     }
@@ -650,6 +696,12 @@ ul {
     h4 {
         font-size: 12px;
     }
+    h2 {
+        font-size: 16px;
+    }
+    #screen-toggle {
+        font-size: 16px;
+    } 
     .info-row {
         flex-direction: column;
     }
