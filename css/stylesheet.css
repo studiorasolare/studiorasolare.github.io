@@ -507,6 +507,13 @@ ul {
     align-items: stretch;
 }
 
+.info-mini-row {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: 100%;
+}
+
 /* Page Project*/
 
 .page-project {
@@ -578,6 +585,22 @@ ul {
     flex: 0 0 57%;
 }
 
+.img-sp-3 {
+    flex: 1.5 1 auto;
+}
+
+.img-sp-4 {
+    flex: 1 2 auto;
+}
+
+.img-sp-5 {
+    flex: 0 1 120%;
+}
+
+.img-sp-6 {
+    flex: 0 1 160%;
+}
+
 .big-card-body {
     display: flex;
     flex-direction: row;
@@ -609,7 +632,7 @@ ul {
     background-image: url(../images/estudiante-ladawards1.png);
 }
 #img-ord-2 {
-    background-image: url(../images/estudiante-ladawards1.png);
+    background-image: url(../images/miffy.png);
 }
 #img-ord-3 {
     background-image: url(../images/orasolare1.png);
@@ -745,4 +768,4 @@ ul {
     }
 }
 
-/* Last written by Anna Maria Lewke, 30/04/2024 :) */
+/* Last written by Anna Maria Lewke, 01/09/2024 :) */
