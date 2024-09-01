@@ -146,6 +146,8 @@ let projects = [
     {name:"Amish Refresh"},
     {name:"Schrotthagen"},
     {name:"Folder App"},
+    {name:"Cobalt Collective"},
+    {name:"BFFR Portfolio"},
 ]
 
 projectList.forEach(project => {
