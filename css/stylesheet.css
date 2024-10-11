@@ -154,10 +154,10 @@ ul {
     color: var(--color-p);
 }
 
-#news {
+#events {
     flex: 0 0 75px;
 } 
-#news:hover {
+#events:hover {
     color: var(--color-p);
 }
 
@@ -202,11 +202,11 @@ ul {
     color: var(--color-p);
 }
 
-#socials {
+#store {
     margin: 0 2.8vw 0 0;
     padding: 0;
 }
-#socials > *:hover {
+#store:hover {
     color: var(--color-p);
 }
 
@@ -629,19 +629,54 @@ ul {
 }
 
 #img-ord-1 {
-    background-image: url(../images/estudiante-ladawards1.png);
+    background-image: url(../images/info-about/info-a-2.png);
 }
 #img-ord-2 {
-    background-image: url(../images/miffy.png);
+    background-image: url(../images/info-about/info-a-3.png);
 }
 #img-ord-3 {
-    background-image: url(../images/orasolare1.png);
+    background-image: url(../images/info-about/info-a-4.png);
 }
 #img-ord-4 {
-    background-image: url(../images/orasolare3.png);
+    background-image: url(../images/info-about/info-a-6.png);
 }
 
 /* Responsive scale */
+@media(min-width: 1500px){
+    .widgets {
+        flex: 0 0 17.1vw;
+    }
+    .previews {
+        flex: 0 0 30vw;
+    }
+    
+    #page-people {
+        gap:8vh;
+        padding: 2vw 5vw 50px 5vw;
+    }
+    #people-row {
+        justify-content: space-between;
+    }
+    .person-1 {
+        width: 9.3vw;
+    }
+    .person-2 {
+        width: 7.5vw;
+    }
+    .person-3 {
+        width: 7.5vw;
+    }
+    .person-4 {
+        width: 8.5vw;
+    }
+    .person-5 {
+        width: 9.3vw;
+    }
+    .person-6 {
+        width: 10.3vw;
+    }
+}
+
 
 /* 1470px and < */
 @media(max-width: 1490px){
@@ -697,7 +732,7 @@ ul {
     .nav-right {
         gap: 3vw;
     }
-    #socials {
+    #store {
         margin: 0;
     }
     .widgets {
