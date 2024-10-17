@@ -203,11 +203,13 @@ ul {
 }
 
 #store {
+    width: 70px;
     margin: 0 2.8vw 0 0;
     padding: 0;
+    color: #909090;
 }
 #store:hover {
-    color: var(--color-p);
+    cursor: default;
 }
 
 /* Container: Widgets, Previews and People */
@@ -514,6 +516,40 @@ ul {
     width: 100%;
 }
 
+/* discover */
+#center-page {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#discover-fox {
+    width: 12vw;
+    height: auto;
+}
+
+/* archive */
+
+#archive-page {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    row-gap: 2vh;
+    column-gap: 5vw;
+}
+
+.archive-img {
+    width: 10vw;
+    height: 12vw;
+    object-fit: cover;
+}
+
+#email {
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 1vw;
+}
+
 /* Page Project*/
 
 .page-project {
@@ -626,19 +662,6 @@ ul {
     gap: 15px;
     height: 100%;
     width: 100%;
-}
-
-#img-ord-1 {
-    background-image: url(../images/info-about/info-a-2.png);
-}
-#img-ord-2 {
-    background-image: url(../images/info-about/info-a-3.png);
-}
-#img-ord-3 {
-    background-image: url(../images/info-about/info-a-4.png);
-}
-#img-ord-4 {
-    background-image: url(../images/info-about/info-a-6.png);
 }
 
 /* Responsive scale */
@@ -763,21 +786,6 @@ ul {
     .info-row {
         flex-direction: column;
     }
-    .ipad-only-1 {
-        flex: 0 0 auto;
-        display: flex;
-        flex-direction: row;
-        gap: 15px;
-    }
-    .ipad-only-2 {
-        flex-direction: row;
-    }
-    .ipad-only-3 {
-        flex: 0 0 auto;
-        display: flex;
-        flex-direction: row;
-        gap: 15px;
-    }
     .img-w-medium {
         height: 200px;
         width: 100%;
@@ -788,18 +796,6 @@ ul {
     }
     .img-sp-1 {
         flex: 0 0 auto;
-    }
-    #img-ord-1 {
-        background-image: url(images/orasolare1.png);
-    }
-    #img-ord-2 {
-        background-image: url(images/orasolare3.png);
-    }
-    #img-ord-3 {
-        background-image: url(images/estudiante-ladawards1.png);
-    }
-    #img-ord-4 {
-        background-image: url(images/miffy.png);
     }
 }
 
