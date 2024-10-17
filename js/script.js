@@ -121,7 +121,7 @@ infoNav.forEach(nav => {
         bodyContent.style.cssText = "overflow-y: scroll";
         infoPages[currentN].style.cssText = "display: flex";
         nav.style.cssText = "color: var(--color-p); cursor: default";
-        infoCards[currentN].style.cssText = "background-color: var(--color-card-hv);cursor: default";
+        infoCards[currentN].style.cssText = "background-color: var(--color-card-hv); cursor: default";
     });
 });
 
@@ -265,4 +265,4 @@ button.addEventListener("click", (event) => {
   
     currentThemeSetting = newTheme;
 }); 
-// Last written by Anna Maria Lewke, 01/09/2024 :)
+// Last written by Anna Maria Lewke, 17/10/2024 :)
