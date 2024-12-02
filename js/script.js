@@ -314,4 +314,4 @@ button.addEventListener("click", (event) => {
   
     currentThemeSetting = newTheme;
 }); 
-// Last written by Anna Maria Lewke, 17/10/2024 :)
+// Last written by Anna Maria Lewke, 02/12/2024 :)
