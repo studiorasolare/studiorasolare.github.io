@@ -32,7 +32,6 @@ body {
     height: 100%;
     margin: 0px;
     cursor: default;
-    background-color: var(--color-bg);
 }
 
 p {
@@ -545,9 +544,20 @@ ul {
 }
 
 #email {
-    text-decoration: underline;
+    font-family: "Archivo Black", sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0;
+    color: var(--color-fg);
+    text-decoration: none;
     text-transform: uppercase;
     font-size: 1vw;
+}
+
+#email-inter {
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 14px;
 }
 
 /* Page Project*/
@@ -643,6 +653,28 @@ ul {
     gap: 10px;
     height: 100%;
 }
+
+/* Backgrounds */
+
+.cool-background {
+    overflow-y: hidden;
+    height: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-color: var(--color-bg);
+}
+
+.cloud {
+    background-image: url(../images/cloud.svg);
+  }
+
 
 /* Page Info ipad responsive*/
 
