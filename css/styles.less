@@ -1,0 +1,57 @@
+@import "../node_modules/lesshat/lesshat.less";
+
+#clouds {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    margin: 0;
+    height: 30%;
+    overflow: hidden;
+    animation: FadeIn 3s ease-out;
+    user-select: none;
+  }
+  
+  @keyframes FadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @duration: 120s;
+  
+  .cloud { 
+    position: absolute;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    height: 70px;
+    animation-duration: @duration;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-name: Float, FadeFloat;
+    z-index: 1;
+  }
+  
+  @height: 10%;
+  
+  @keyframes Float {
+    from { transform: translateX(100%) translateZ(0); }
+    to { transform: translateX(-15%) translateZ(0); }
+  }
+  
+  @keyframes FadeFloat {
+    0%, 100% { opacity: 0; }
+    5%, 90% { opacity: 1; }
+  }
+  
+  .cloud-Loop (@delay, @i) when (@i > 0) { 
+    .cloud:nth-child(@{i}) { 
+      animation-delay: (@delay * @i ); 
+      top: unit( @i * 6 ,%);
+      animation-duration: (@duration - (@i * 4));
+      height: (@height + (@i * 2.5));
+    }
+    
+    .cloud-Loop(@delay, (@i - 1)); // Keep Looping
+  }
+  .cloud-Loop (0) {} // End loop
+  .cloud-Loop ((@duration / 6.5 ) * -1, 10);
