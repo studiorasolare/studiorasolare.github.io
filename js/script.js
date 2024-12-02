@@ -142,12 +142,14 @@ let projects = [
     {name:"Cycle Jeans"},
     {name:"Ray Tattoo Studio"},
     {name:"Being Bold"},
-    {name:"Tekairos"},
+    {name:"Monrou"},
     {name:"Amish Refresh"},
     {name:"Schrotthagen"},
     {name:"Folder App"},
     {name:"Cobalt Collective"},
     {name:"BFFR Portfolio"},
+    {name:"Tekairos"},
+    {name:"Vania Levu"},
 ]
 
 projectList.forEach(project => {
@@ -187,6 +189,53 @@ projectCards.forEach(card => {
 logoDiv.addEventListener("click", ()=>{removeBodyContent(); peoplePage.style.cssText = "display:flex"; bodyContent.style.cssText = "overflow-y: hidden";})
 
 // Cloud, Party toggle
+
+let clouds = document.getElementById("clouds");
+let cloudButton = document.getElementById("cloud-toggle");
+let party = document.getElementById("party");
+const emojiList = Array.from(document.querySelectorAll(".emoji"));
+let partyButton = document.getElementById("party-toggle");
+
+
+clouds.style.cssText = "display: none";
+party.style.cssText = "display: none";
+
+cloudButton.addEventListener("click",()=>{
+    if (clouds.style.display === "none"){
+        clouds.style.display = "block";
+        cloudButton.style.cssText = "background-color: var(--color-card-hv)";
+        party.style.cssText = "display: none";
+        partyButton.style.cssText = "background-color:";
+    } else {
+        clouds.style.display = "none";
+        cloudButton.style.cssText = "background-color:";
+    }
+})
+
+function emojiAnimation() {
+emojiList.forEach((emoji, index) => {
+    setTimeout(() => {
+    var randomTop = Math.floor(Math.random() * 100) + 1;
+    var randomLeft = Math.floor(Math.random() * 100) + 1;
+    emoji.style.cssText = `top: ${randomTop}%; left: ${randomLeft}%;`;
+    emoji.style.backgroundImage = `url("images/party/${Math.floor(Math.random() * 37) + 1}.png")`;
+    }, index * 200);
+});
+};
+
+setInterval(emojiAnimation,1000);
+
+partyButton.addEventListener("click", ()=>{
+    if (party.style.display === "none"){
+        party.style.display = "block";
+        partyButton.style.cssText = "background-color: var(--color-card-hv)";
+        clouds.style.cssText = "display: none";
+        cloudButton.style.cssText = "background-color:";
+    } else {
+        party.style.display = "none";
+        partyButton.style.cssText = "background-color:";
+    }
+});
 
 
 
