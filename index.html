@@ -6,10 +6,43 @@
     <title>Ora Solare</title>
     <script src="js/script.js" defer></script>
     <script src="https://moment.github.io/luxon/global/luxon.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body>
-<div class="box">   
+<div class="cool-background">
+    <div id="clouds">
+            <div class="cloud"></div>
+            <div class="cloud"></div>
+            <div class="cloud"></div>
+            <div class="cloud"></div>
+            <div class="cloud"></div>
+            <div class="cloud"></div>
+            <div class="cloud"></div>
+            <div class="cloud"></div>
+            <div class="cloud"></div>
+            <div class="cloud"></div>
+            <div class="cloud"></div>
+            <div class="cloud"></div>
+            <div class="cloud"></div>
+    </div>
+    <div id="party">
+        <div class="emoji"></div>
+        <div class="emoji"></div>
+        <div class="emoji"></div>
+        <div class="emoji"></div>
+        <div class="emoji"></div>
+        <div class="emoji"></div>
+        <div class="emoji"></div>
+        <div class="emoji"></div>
+        <div class="emoji"></div>
+        <div class="emoji"></div>
+        <div class="emoji"></div>
+        <div class="emoji"></div>
+        <div class="emoji"></div>
+    </div>
+</div>    
+<div class="box">
 <!-- NAVIGATION -->
     <div class="navigation">
         <div class="ora-title">
@@ -32,6 +65,8 @@
                     <h4 class="project" data-order="8">project 9</h4>
                     <h4 class="project" data-order="9">project 10</h4>
                     <h4 class="project" data-order="10">project 11</h4>
+                    <h4 class="project" data-order="11">project 12</h4>
+                    <h4 class="project" data-order="12">project 13</h4>
                 </ul>
                 <h4 class="nav-info" id="discover" data-order="3">discover the evolution of our designs over the past weeks</h4>
             </div>
@@ -95,9 +130,9 @@
                 <div class="card-body">
                     <div class="card-body-text left-pad">
                             <h3>In Milan</h3>
-                            <p>Best raves and events every weekend in Milan. 
-                            In our Instagram profile we make a summary of
-                            the best events that not everyone knows about.</p>
+                            <p>As a studio we provide a platform for independent 
+                                artists of all kinds to showcase their work. 
+                                From painters and designers to photographers.</p>
                     </div>    
                 </div>
             </div>
@@ -178,15 +213,15 @@
             <div class="card card-proj" data-order="5">
                 <div class="card-header">
                     <p>Project</p>
-                    <p>App Design</p>
+                    <p>Cover Art</p>
                 </div>
                 <div class="card-body">
-                    <img src="images/tekairos.png">
+                    <img src="images/monrou.png">
                     <div class="card-body-text">
-                            <h3>Tekairos</h3>
-                            <p>App Design for Tekairos, an application 
-                                that focuses on making mental, physical 
-                                and spiritual well being more accessible...</p>
+                            <h3>Monrou</h3>
+                            <p>Cover art for the New Wave band Monrou. 
+                                We designed the artwork for three of 
+                                their new Spotify singles...</p>
                     </div>    
                 </div>
             </div>
@@ -264,6 +299,36 @@
                     </div>    
                 </div>
             </div>
+            <div class="card card-proj" data-order="11">
+                <div class="card-header">
+                    <p>Project</p>
+                    <p>App Design</p>
+                </div>
+                <div class="card-body">
+                    <img src="images/tekairos.png">
+                    <div class="card-body-text">
+                            <h3>Tekairos</h3>
+                            <p>App Design for Tekairos, an application that focuses 
+                                on making mental, physical and spiritual well being 
+                                more accessible...</p>
+                    </div>    
+                </div>
+            </div>
+            <div class="card card-proj" data-order="12">
+                <div class="card-header">
+                    <p>Project</p>
+                    <p>Brand Identity</p>
+                </div>
+                <div class="card-body">
+                    <img src="images/vanialevu.png">
+                    <div class="card-body-text">
+                            <h3>Vania Levu</h3>
+                            <p>Brand Identity for Vania Levu, 
+                                a Milan-based DJ known for her hard 
+                                techno and underground sounds....</p>
+                    </div>    
+                </div>
+            </div>
         </div>
         <div class="body-content" id="body-cont">
             <div id="page-people">
@@ -334,6 +399,7 @@
                     </div>
                 </div>
             </div>
+            <!-- Info:About -->
             <div class="page-info">
                 <div class="info-row">
                     <div class="info-column">
@@ -363,11 +429,12 @@
                             <div class="big-card-body">
                                 <div class="card-body-text">
                                     <p>Founders</p>
-                                        <h3>Kappa</h3>
-                                        <p>Born and raised in Santiago de Chile, moved to Milan in 2019. 
-                                            In love with all the arts but her heart belong to the visual design 
-                                            world. Will never admit how much she loves pasta but will paint 
-                                            you everything you ask her.
+                                        <h3>Josefina Kunz</h3>
+                                        <p>A Creative Director born and raised in Santiago, Chile, now based in Milan. 
+                                            As an artist herself, her mission is to build spaces that prioritize authenticity 
+                                            and real connections among artists. With a particular focus on integrating design 
+                                            and social impact, she dreams of creating inclusive spaces and solutions that 
+                                            are accessible and meaningful to all.
                                         </p>
                                 </div>    
                             </div>
@@ -376,11 +443,12 @@
                             <div class="big-card-body">
                                 <div class="card-body-text">
                                         <p>Founders</p>
-                                        <h3>Erre</h3>
-                                        <p>Probably the only left Milanese in Milan, majored in a different 
-                                            art but found her self in the world of the graphic design. 
-                                            Unlike the one above, loves pasta and will cook you 
-                                            the best carbonara of your life.
+                                        <h3>Elisa Romano</h3>
+                                        <p>The only Milanese left in Milan. Graphic designer at day, musician at night. 
+                                            Since the age of 7 she is in love with every instrument you’ve seen, using 
+                                            music as a way to connect with others. A firm believer in self-expression, 
+                                            kindness, and freedom, she’s dedicated to creating meaningful connections 
+                                            through both music and art.
                                         </p>
                                 </div>    
                             </div>
@@ -434,6 +502,7 @@
                     </div>
                 </div>
             </div>
+            <!-- Info:Services -->
             <div class="page-info">
                 <div class="info-row">
                     <div class="card c-big" style="width: 100%;">
@@ -542,74 +611,68 @@
                     </div>
                 </div>
             </div>
+            <!-- Info:Events -->
             <div class="page-info">
                 <div class="info-row">
-                    <div class="info-column img-sp-3">
-                        <div class="info-mini-row">
-                            <div class="card-img img-h-small" style="background-image: url(images/info-news/info-n-1.png);"></div>
-                            <div class="card-img img-h-small" style="background-image: url(images/info-news/info-n-2.png);"></div>
-                        </div>
-                        <div class="card-img img-h-small" style="background-image: url(images/info-news/info-n-3.png);"></div>
-                    </div>
-                    <div class="info-column img-sp-4">
-                        <div class="card-img" style="background-image: url(images/info-news/info-n-4.png);"></div>
-                    </div>
+                    <div class="card-img img-h-large img-sp-1" style="background-image: url(images/info-news/info1.png);"></div>
+                    <div class="card-img img-h-large" style="background-image: url(images/info-news/info2.png);"></div>
                 </div>
                 <div class="info-row">
                     <div class="info-column img-sp-5">
-                        <div class="card-img" style="background-image: url(images/info-news/info-n-5.png);"></div>
-                        <div class="card-img" style="background-image: url(images/info-news/info-n-6.png);"></div>
+                        <div class="card-img" style="background-image: url(images/info-news/info3.png);"></div>
+                        <div class="card-img" style="background-image: url(images/info-news/info4.png);"></div>
                     </div>
                     <div class="info-column">
                         <div class="card c-big">
                             <div class="big-card-body">
                                 <div class="card-body-text">
-                                        <p>Events</p>
-                                        <h3>Events in Milan</h3>
-                                        <p>Are you new in Milan or you can’t organize where to go out 
-                                            this weekend with your friends? In our IG profile we made 
-                                            a summary of the best events that not everyone knows 
-                                            about in Milan.
+                                        <p>Milan</p>
+                                        <h3>SOS House</h3>
+                                        <p>As studio we provide a platform for independent artists of all 
+                                            kinds to showcase their work. From painters and designers to 
+                                            photographers, performers, and musicians, we welcome a diverse 
+                                            range of creative talent. Our studio offers a safe, inclusive 
+                                            space where everyone is free to connect, explore, and enjoy 
+                                            art in a way that's unlike any other place in Milan.
                                         </p>
                                 </div>    
                             </div>
                         </div>
-                        <div class="card-img img-h-medium" style="background-image: url(images/info-news/info-n-7.png);"></div>
+                        <div class="card-img img-h-medium" style="background-image: url(images/info-news/info5.png);"></div>
                     </div>
                 </div>
-                <div class="info-row">
-                    <div class="card-img img-h-small" style="background-image: url(images/info-news/info-n-event.png);"></div>
-                    <div class="card-img img-h-small" style="background-image: url(images/info-news/info-n-8.png);"></div>
-                    <div class="card-img img-h-small" style="background-image: url(images/info-news/info-n-9.png);"></div>
-                </div>
+                <div class="info-row card-img img-h-small" style="background-image: url(images/info-news/info6.png);"></div>
                 <div class="info-row">
                     <div class="info-column">
                         <div class="card c-big">
                             <div class="big-card-body">
                                 <div class="card-body-text">
-                                        <p>Events</p>
-                                        <h3>Hidden Places</h3>
-                                        <p>Tired of the usual spots? Let us be your guide to Milan’s 
-                                            hidden locations, we're here to reveal the side of Milan 
-                                            you never knew existed. Whether you're a local seeking 
-                                            new adventures, a student looking for new sunset spots 
-                                            or a tourist looking for an authentic experience, 
-                                            trust us to lead you off this hidden underground places. 
+                                        <p>Milan</p>
+                                        <h3>Why was SOS House created?</h3>
+                                        <p>We started as a creative studio, but SOS House emerged 
+                                            from a personal need. Milan can feel lonely, and we 
+                                            wanted to create a space where people could connect 
+                                            without judgment. Our goal is to create a sense of 
+                                            belonging for creative people, allowing them to 
+                                            interact without the pressure to perform. 
+                                            We want you to simply be yourself. 
                                         </p>
                                 </div>    
                             </div>
                         </div>
-                        <div class="card-img img-h-medium" style="background-image: url(images/info-news/info-n-11.png);"></div>
+                        <div class="card-img img-h-medium" style="background-image: url(images/info-news/info7.png);"></div>
                     </div>
                     <div class="info-column img-sp-5">
-                        <div class="card-img" style="background-image: url(images/info-news/info-n-10.png);"></div>
-                        <div class="card-img" style="background-image: url(images/info-news/info-n-12.png);"></div>
+                        <div class="card-img" style="background-image: url(images/info-news/info8.png);"></div>
+                        <div class="card-img" style="background-image: url(images/info-news/info9.png);"></div>
                     </div>
                 </div>
             </div>  
+            <!-- Info:Discover -->
             <div class="page-info" id="center-page">
                 <img id="discover-fox" src="images/info-discover/info-d-1.png">
             </div>
+            <!-- Info:Archive -->
             <div class="page-info" id="archive-page">
                 <img class="archive-img" src="images/info-archive/info-ar-1.png">
                 <img class="archive-img" src="images/info-archive/info-ar-2.png">
@@ -631,13 +694,15 @@
                 <img class="archive-img" src="images/info-archive/info-ar-18.png">
 
             </div>
+            <!-- Info:Contact -->
             <div class="page-info" id="center-page">
-                <h4 id="email">STUDIORASOLARE@gmail.com</h4>
+                <a id="email" href="mailto:studiorasolare@gmail.com" target="_blank">STUDIORASOLARE<span id="email-inter">@</span>gmail.com</a>
             </div>
+            <!-- 1:Make it endless -->
             <div class="page-project">
                 <div class="p-row">
-                    <div class="card-img img-h-small img-sp-1" style="background-image: url(images/project-1/p1-1.png);"></div>
-                    <div class="card-img img-h-small" style="background-image: url(images/project-1/p1-2.png);"></div>
+                    <div class="card-img img-h-small img-sp-1" style="background-image: url(images/project-1/p1.png);"></div>
+                    <div class="card-img img-h-small" style="background-image: url(images/project-1/p2.png);"></div>
                 </div>
                 <div class="p-row">
                     <div class="p-column">
@@ -664,11 +729,11 @@
                                 </div>    
                             </div>
                         </div>
-                        <div class="card-img img-w-small" style="background-image: url(images/project-1/p1-4.png);"></div>
-                        <div class="card-img img-w-small" style="background-image: url(images/project-1/p1-5.png);"></div>
+                        <div class="card-img img-w-small" style="background-image: url(images/project-1/p4.png);"></div>
+                        <div class="card-img img-w-small" style="background-image: url(images/project-1/p5.png);"></div>
                     </div>
                     <div class="p-column">
-                        <div class="card-img img-h-large" style="background-image: url(images/project-1/p1-3.png);"></div>
+                        <div class="card-img img-h-large" style="background-image: url(images/project-1/p3.png);"></div>
                         <div class="card c-big">
                             <div class="big-card-body">
                                 <div class="card-body-text">
@@ -685,20 +750,21 @@
                                 </div>    
                             </div>
                         </div>
-                        <div class="card-img img-h-large" style="background-image: url(images/project-1/p1-6.png);"></div>
+                        <div class="card-img img-h-large" style="background-image: url(images/project-1/p6.png);"></div>
                     </div>
                 </div>
-                <div class="p-row card-img img-h-medium" style="background-image: url(images/project-1/p1-7.png);"></div>
+                <div class="p-row card-img img-h-medium" style="background-image: url(images/project-1/p7.png);"></div>
                 <div class="p-row">
-                    <div class="card-img img-h-small" style="background-image: url(images/project-1/p1-8.png);"></div>
-                    <div class="card-img img-h-small" style="background-image: url(images/project-1/p1-9.png);"></div>
-                    <div class="card-img img-h-small" style="background-image: url(images/project-1/p1-10.png);"></div>
+                    <div class="card-img img-h-small" style="background-image: url(images/project-1/p8.png);"></div>
+                    <div class="card-img img-h-small" style="background-image: url(images/project-1/p9.png);"></div>
+                    <div class="card-img img-h-small" style="background-image: url(images/project-1/p10.png);"></div>
                 </div>
                 <div class="p-row">
-                    <div class="card-img img-h-medium" style="background-image: url(images/project-1/p1-11.png);"></div>
-                    <div class="card-img img-h-medium img-sp-1" style="background-image: url(images/project-1/p1-12.png);"></div>
+                    <div class="card-img img-h-medium" style="background-image: url(images/project-1/p11.png);"></div>
+                    <div class="card-img img-h-medium img-sp-1" style="background-image: url(images/project-1/p12.png);"></div>
                 </div>
             </div>
+            <!-- 2:Bloom -->
             <div class="page-project">
                 <div class="p-row">
                     <div class="p-column">
@@ -717,14 +783,14 @@
                                 </div>    
                             </div>
                         </div>
-                        <div class="card-img" style="background-image: url(images/project-2/p2-1.png);"></div>
+                        <div class="card-img" style="background-image: url(images/project-2/p1.png);"></div>
                     </div>
-                    <div class="card-img img-h-large img-sp-6" style="background-image: url(images/project-2/p2-2.png);"></div>
+                    <div class="card-img img-h-large img-sp-6" style="background-image: url(images/project-2/p2.png);"></div>
                 </div>
                 <div class="p-row">
                     <div class="p-column">
-                        <div class="card-img img-w-small" style="background-image: url(images/project-2/p2-3.png);"></div>
-                        <div class="card-img img-w-small" style="background-image: url(images/project-2/p2-4.png);"></div>
+                        <div class="card-img img-w-small" style="background-image: url(images/project-2/p3.png);"></div>
+                        <div class="card-img img-w-small" style="background-image: url(images/project-2/p4.png);"></div>
                     </div>
                     <div class="p-column">
                         <div class="card c-big">
@@ -741,14 +807,15 @@
                                 </div>    
                             </div>
                         </div>
-                        <div class="card-img img-h-medium" style="background-image: url(images/project-2/p2-5.png);"></div>
+                        <div class="card-img img-h-medium" style="background-image: url(images/project-2/p5.png);"></div>
                     </div>
                 </div>
-                <div class="p-row card-img img-h-small" style="background-image: url(images/project-2/p2-6.png);"></div>
-                <div class="p-row card-img img-h-small" style="background-image: url(images/project-2/p2-7.png);"></div>
+                <div class="p-row card-img img-h-small" style="background-image: url(images/project-2/p6.png);"></div>
+                <div class="p-row card-img img-h-small" style="background-image: url(images/project-2/p7.png);"></div>
             </div>
+            <!-- 3:Cycle jeans -->
             <div class="page-project">
-                <div class="p-row card-img img-h-medium" style="background-image: url(images/project-3/p3-1.png);"></div>
+                <div class="p-row card-img img-h-medium" style="background-image: url(images/project-3/p1.png);"></div>
                 <div class="p-row">
                     <div class="p-column">
                         <div class="card c-big">
@@ -769,11 +836,11 @@
                                 </div>    
                             </div>
                         </div>
-                        <div class="card-img img-h-small" style="background-image: url(images/project-3/p3-3.png);"></div>
-                        <div class="card-img img-h-large" style="background-image: url(images/project-3/p3-4.png);"></div>
+                        <div class="card-img img-h-small" style="background-image: url(images/project-3/p3.png);"></div>
+                        <div class="card-img img-h-large" style="background-image: url(images/project-3/p4.png);"></div>
                     </div>
                     <div class="p-column">
-                        <div class="card-img" style="background-image: url(images/project-3/p3-2.png);"></div>
+                        <div class="card-img img-w-medium" style="background-image: url(images/project-3/p2.png);"></div>
                         <div class="card c-big">
                             <div class="big-card-body">
                                 <div class="card-body-text">
@@ -788,16 +855,17 @@
                                 </div>    
                             </div>
                         </div>
-                        <div class="card-img" style="background-image: url(images/project-3/p3-5.png);"></div>
+                        <div class="card-img" style="background-image: url(images/project-3/p5.png);"></div>
                     </div>
                 </div>
                 <div class="p-row">
-                    <div class="card-img img-h-small" style="background-image: url(images/project-3/p3-6.png);"></div>
-                    <div class="card-img img-h-small" style="background-image: url(images/project-3/p3-7.png);"></div>
-                    <div class="card-img img-h-small" style="background-image: url(images/project-3/p3-8.png);"></div>
+                    <div class="card-img img-h-small" style="background-image: url(images/project-3/p6.png);"></div>
+                    <div class="card-img img-h-small" style="background-image: url(images/project-3/p7.png);"></div>
+                    <div class="card-img img-h-small" style="background-image: url(images/project-3/p8.png);"></div>
                 </div>
-                <div class="p-row card-img img-h-medium" style="background-image: url(images/project-3/p3-9.png);"></div>
+                <div class="p-row card-img img-h-medium" style="background-image: url(images/project-3/p9.png);"></div>
             </div>
+            <!-- 4:Ray studio tattoo -->
             <div class="page-project">
                 <div class="p-row">
                     <div class="p-column">
@@ -814,14 +882,14 @@
                                 </div>    
                             </div>
                         </div>
-                        <div class="card-img" style="background-image: url(images/project-4/p4-1.png);"></div>
+                        <div class="card-img" style="background-image: url(images/project-4/p1.png);"></div>
                     </div>
-                    <div class="card-img img-h-large img-sp-5" style="background-image: url(images/project-4/p4-2.png);"></div>
+                    <div class="card-img img-h-large img-sp-5" style="background-image: url(images/project-4/p2.png);"></div>
                 </div>  
                 <div class="p-row">
                     <div class="p-column">
-                        <div class="card-img img-w-small" style="background-image: url(images/project-4/p4-3.png);"></div>
-                        <div class="card-img img-w-small" style="background-image: url(images/project-4/p4-4.png);"></div>
+                        <div class="card-img img-w-small" style="background-image: url(images/project-4/p3.png);"></div>
+                        <div class="card-img img-w-small" style="background-image: url(images/project-4/p4.png);"></div>
                     </div>
                     <div class="p-column">
                         <div class="card c-big">
@@ -837,31 +905,32 @@
                                 </div>    
                             </div>
                         </div>
-                        <div class="card-img img-h-medium" style="background-image: url(images/project-4/p4-5.png);"></div>
+                        <div class="card-img img-h-medium" style="background-image: url(images/project-4/p5.png);"></div>
                     </div>
                 </div>  
-                <div class="p-row card-img img-h-medium" style="background-image: url(images/project-4/p4-6.png);"></div>
+                <div class="p-row card-img img-h-medium" style="background-image: url(images/project-4/p6.png);"></div>
                 <div class="p-row">
                     <div class="p-column">
-                        <div class="card-img img-w-small" style="background-image: url(images/project-4/p4-7.png);"></div>
-                        <div class="card-img img-w-small" style="background-image: url(images/project-4/p4-8.png);"></div>
+                        <div class="card-img img-w-small" style="background-image: url(images/project-4/p7.png);"></div>
+                        <div class="card-img img-w-small" style="background-image: url(images/project-4/p8.png);"></div>
                     </div>
                     <div class="p-column img-sp-5">
-                        <div class="card-img img-h-small" style="background-image: url(images/project-4/p4-9.png);"></div>
-                        <div class="card-img img-h-large" style="background-image: url(images/project-4/p4-10.png);"></div>
+                        <div class="card-img img-h-small" style="background-image: url(images/project-4/p9.png);"></div>
+                        <div class="card-img img-h-large" style="background-image: url(images/project-4/p10.png);"></div>
                     </div>
                 </div>
             </div>
+            <!-- 5:Being bold -->
             <div class="page-project">
                 <div class="p-row">
                     <div class="p-column">
-                        <div class="card-img img-w-small" style="background-image: url(images/project-5/p5-1.png);"></div>
-                        <div class="card-img img-w-small" style="background-image: url(images/project-5/p5-2.png);"></div>
-                        <div class="card-img img-w-small" style="background-image: url(images/project-5/p5-3.png);"></div>
-                        <div class="card-img img-w-small" style="background-image: url(images/project-5/p5-4.png);"></div>
+                        <div class="card-img img-w-small" style="background-image: url(images/project-5/p1.png);"></div>
+                        <div class="card-img img-w-small" style="background-image: url(images/project-5/p2.png);"></div>
+                        <div class="card-img img-w-small" style="background-image: url(images/project-5/p3.png);"></div>
+                        <div class="card-img img-w-small" style="background-image: url(images/project-5/p4.png);"></div>
                     </div>
                     <div class="p-column">
-                        <div class="card-img img-h-large" style="background-image: url(images/project-5/p5-5.png);"></div>
+                        <div class="card-img img-h-large" style="background-image: url(images/project-5/p5.png);"></div>
                         <div class="card c-big">
                             <div class="big-card-body">
                                 <div class="card-body-text">
@@ -876,50 +945,62 @@
                                 </div>    
                             </div>
                         </div>
-                        <div class="card-img img-h-large" style="background-image: url(images/project-5/p5-6.png);"></div>
+                        <div class="card-img img-h-large" style="background-image: url(images/project-5/p6.png);"></div>
                     </div>
                 </div>  
                 <div class="p-row">
-                    <div class="card-img img-h-large img-sp-1" style="background-image: url(images/project-5/p5-7.png);"></div>
-                    <div class="card-img img-h-large" style="background-image: url(images/project-5/p5-8.png);"></div>
+                    <div class="card-img img-h-large img-sp-1" style="background-image: url(images/project-5/p7.png);"></div>
+                    <div class="card-img img-h-large" style="background-image: url(images/project-5/p8.png);"></div>
                 </div>
             </div>
+            <!-- 6:Monrou -->
             <div class="page-project">
-                <div class="p-row card-img img-h-medium" style="background-image: url(images/project-6/p6-1.png);"></div>
+                <div class="p-row card-img img-h-medium" style="background-image: url(images/project-6/p1.png);"></div>
                 <div class="p-row">
                     <div class="p-column">
-                        <div class="card-img img-w-small img-h-small" style="background-image: url(images/project-6/p6-2.png);"></div>
-                        <div class="card-img img-h-small" style="background-image: url(images/project-6/p6-3.png);"></div>
-                        <div class="card-img img-h-large" style="background-image: url(images/project-6/p6-4.png); flex: 1 0 1;"></div>
-                    </div>
-                    <div class="p-column">
-                        <div class="card-img img-h-large img-sp-5" style="background-image: url(images/project-6/p6-5.png);"></div>
+                        <div class="card-img img-w-medium" style="background-image: url(images/project-6/p2.png);"></div>
                         <div class="card c-big">
                             <div class="big-card-body">
                                 <div class="card-body-text">
-                                        <p>App Design</p>
-                                        <h3>Tekairos</h3>
-                                        <p>There is really something for everyone on this app. 
-                                            Making mental, physical and spiritual well being 
-                                            far more accessible. For the platform design we 
-                                            based ourselves on a strong user experience 
-                                            research to develop the best user interface results.
+                                        <p>Monrou</p>
+                                        <h3>Visuals</h3>
+                                        <p>A project inspired by the sound of '80s synth pop and new wave, 
+                                            reinterpreted with a modern vision while still preserving its 
+                                            original essence. All of this is wrapped in a retrofuturistic 
+                                            aesthetic that evokes a cosmic sensation, contrasting light 
+                                            and darkness in perfect harmony with Monrou’s signature sounds.
                                         </p>
                                 </div>    
                             </div>
                         </div>
-                        <div class="card-img" style="background-image: url(images/project-6/p6-6.png);"></div>
+                        <div class="card-img img-h-medium" style="background-image: url(images/project-6/p3.png);"></div>
                     </div>
-                </div>  
-                <div class="p-row">
-                    <div class="card-img img-h-small" style="background-image: url(images/project-6/p6-7.png);"></div>
-                    <div class="card-img img-h-small" style="background-image: url(images/project-6/p6-8.png);"></div>
-                    <div class="card-img img-h-small" style="background-image: url(images/project-6/p6-9.png);"></div>
+                    <div class="p-column">
+                        <div class="card c-big">
+                            <div class="big-card-body">
+                                <div class="card-body-text">
+                                        <p>Cover Art</p>
+                                        <h3>Monrou</h3>
+                                        <p>Cover art for the New Wave band Monrou. 
+                                            We designed the artwork for three of their new Spotify 
+                                            singles—'No Son Los Momentos,' 'Lenguaje Corporal,' and 
+                                            'Todo Es Muy Raro'—as part of a cohesive series. 
+                                            Each cover tells its own unique story, yet together 
+                                            they form a unified visual narrative.
+                                        </p>
+                                </div>    
+                            </div>
+                        </div>
+                        <div class="card-img img-h-large" style="background-image: url(images/project-6/p4.png);"></div>
+                        <div class="card-img" style="background-image: url(images/project-6/p5.png);"></div>
+                    </div>
                 </div>
-                <div class="p-row card-img img-h-medium" style="background-image: url(images/project-6/p6-10.png);"></div>
+                <div class="p-row card-img img-h-small" style="background-image: url(images/project-6/p6.png);"></div>
+                <div class="p-row card-img img-h-small" style="background-image: url(images/project-6/p7.png);"></div>
             </div>
+            <!-- 7:Amish -->
             <div class="page-project">
-                <div class="p-row card-img img-h-medium" style="background-image: url(images/project-7/p7-1.png);"></div>
+                <div class="p-row card-img img-h-medium" style="background-image: url(images/project-7/p1.png);"></div>
                 <div class="p-row">
                     <div class="p-column">
                         <div class="card c-big">
@@ -941,11 +1022,11 @@
                                 </div>    
                             </div>
                         </div>
-                        <div class="card-img img-h-small" style="background-image: url(images/project-7/p7-2.png);"></div>
-                        <div class="card-img img-h-large" style="background-image: url(images/project-7/p7-3.png);"></div>
+                        <div class="card-img img-h-small" style="background-image: url(images/project-7/p2.png);"></div>
+                        <div class="card-img img-h-large" style="background-image: url(images/project-7/p3.png);"></div>
                     </div>
                     <div class="p-column">
-                        <div class="card-img" style="background-image: url(images/project-7/p7-4.png);"></div>
+                        <div class="card-img img-w-medium" style="background-image: url(images/project-7/p4.png);"></div>
                         <div class="card c-big">
                             <div class="big-card-body">
                                 <div class="card-body-text">
@@ -962,16 +1043,17 @@
                                 </div>    
                             </div>
                         </div>
-                        <div class="card-img" style="background-image: url(images/project-7/p7-5.png);"></div>
+                        <div class="card-img" style="background-image: url(images/project-7/p5.png);"></div>
                     </div>
                 </div>
-                <div class="p-row card-img img-h-medium" style="background-image: url(images/project-7/p7-6.png);"></div>
+                <div class="p-row card-img img-h-medium" style="background-image: url(images/project-7/p6.png);"></div>
                 <div class="p-row">
-                    <div class="card-img img-h-small" style="background-image: url(images/project-7/p7-7.png);"></div>
-                    <div class="card-img img-h-small" style="background-image: url(images/project-7/p7-8.png);"></div>
-                    <div class="card-img img-h-small" style="background-image: url(images/project-7/p7-9.png);"></div>
+                    <div class="card-img img-h-small" style="background-image: url(images/project-7/p7.png);"></div>
+                    <div class="card-img img-h-small" style="background-image: url(images/project-7/p8.png);"></div>
+                    <div class="card-img img-h-small" style="background-image: url(images/project-7/p9.png);"></div>
                 </div>
             </div>
+            <!-- 8:Schrotthagen -->
             <div class="page-project">
                 <div class="p-row">
                     <div class="p-column">
@@ -989,14 +1071,14 @@
                                 </div>    
                             </div>
                         </div>
-                        <div class="card-img" style="background-image: url(images/project-8/p8-1.png);"></div>
+                        <div class="card-img" style="background-image: url(images/project-8/p1.png);"></div>
                     </div>
-                    <div class="card-img img-h-large img-sp-6" style="background-image: url(images/project-8/p8-2.png);"></div>
+                    <div class="card-img img-h-large img-sp-6" style="background-image: url(images/project-8/p2.png);"></div>
                 </div>
                 <div class="p-row">
                     <div class="p-column">
-                        <div class="card-img img-w-small img-sp-1" style="background-image: url(images/project-8/p8-3.png);"></div>
-                        <div class="card-img img-w-small" style="background-image: url(images/project-8/p8-4.png);"></div>
+                        <div class="card-img img-w-small img-sp-1" style="background-image: url(images/project-8/p3.png);"></div>
+                        <div class="card-img img-w-small" style="background-image: url(images/project-8/p4.png);"></div>
                     </div>
                     <div class="p-column">
                         <div class="card c-big">
@@ -1017,23 +1099,24 @@
                                 </div>    
                             </div>
                         </div>
-                        <div class="card-img img-h-large" style="background-image: url(images/project-8/p8-5.png);"></div>
+                        <div class="card-img img-h-large" style="background-image: url(images/project-8/p5.png);"></div>
                     </div>
                 </div>
-                <div class="p-row card-img img-h-small" style="background-image: url(images/project-8/p8-6.png);"></div>
-                <div class="p-row card-img img-h-small" style="background-image: url(images/project-8/p8-7.png);"></div>
+                <div class="p-row card-img img-h-small" style="background-image: url(images/project-8/p6.png);"></div>
+                <div class="p-row card-img img-h-small" style="background-image: url(images/project-8/p7.png);"></div>
             </div>
+            <!-- 9:Folder -->
             <div class="page-project">
-                <div class="p-row card-img img-h-large" style="background-image: url(images/project-9/p9-1.png);"></div>
-                <div class="p-row card-img img-h-medium" style="background-image: url(images/project-9/p9-2.png);"></div>
+                <div class="p-row card-img img-h-large" style="background-image: url(images/project-9/p1.png);"></div>
+                <div class="p-row card-img img-h-medium" style="background-image: url(images/project-9/p2.png);"></div>
                 <div class="p-row">
                     <div class="p-column">
-                        <div class="card-img img-w-small img-h-small" style="background-image: url(images/project-9/p9-3.png);"></div>
-                        <div class="card-img img-h-small" style="background-image: url(images/project-9/p9-4.png);"></div>
-                        <div class="card-img img-h-large" style="background-image: url(images/project-9/p9-5.png); flex: 1 0 1;"></div>
+                        <div class="card-img img-w-small img-h-small" style="background-image: url(images/project-9/p3.png);"></div>
+                        <div class="card-img img-h-small" style="background-image: url(images/project-9/p4.png);"></div>
+                        <div class="card-img img-h-large" style="background-image: url(images/project-9/p5.png); flex: 1 0 1;"></div>
                     </div>
                     <div class="p-column">
-                        <div class="card-img img-h-large img-sp-5" style="background-image: url(images/project-9/p9-6.png);"></div>
+                        <div class="card-img img-h-large img-sp-5" style="background-image: url(images/project-9/p6.png);"></div>
                         <div class="card c-big">
                             <div class="big-card-body">
                                 <div class="card-body-text">
@@ -1051,19 +1134,20 @@
                                 </div>    
                             </div>
                         </div>
-                        <div class="card-img" style="background-image: url(images/project-9/p9-7.png);"></div>
+                        <div class="card-img" style="background-image: url(images/project-9/p7.png);"></div>
                     </div>
                 </div>
             </div>
+            <!-- 10:Cobalt collective -->
             <div class="page-project">
-                <div class="p-row card-img img-h-medium" style="background-image: url(images/project-10/p10-1.png);"></div>
+                <div class="p-row card-img img-h-medium" style="background-image: url(images/project-10/p1.png);"></div>
                 <div class="p-row">
                     <div class="p-column">
-                        <div class="card-img img-w-small" style="background-image: url(images/project-10/p10-2.png);"></div>
-                        <div class="card-img img-w-small" style="background-image: url(images/project-10/p10-3.png);"></div>
+                        <div class="card-img img-w-small" style="background-image: url(images/project-10/p2.png);"></div>
+                        <div class="card-img img-w-small" style="background-image: url(images/project-10/p3.png);"></div>
                     </div>
                     <div class="p-column">
-                        <div class="card-img img-h-large" style="background-image: url(images/project-10/p10-4.png);"></div>
+                        <div class="card-img img-h-large" style="background-image: url(images/project-10/p4.png);"></div>
                         <div class="card c-big">
                             <div class="big-card-body">
                                 <div class="card-body-text">
@@ -1081,10 +1165,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="p-row card-img img-h-medium" style="background-image: url(images/project-10/p10-5.png);"></div>
+                <div class="p-row card-img img-h-medium" style="background-image: url(images/project-10/p5.png);"></div>
             </div>
+            <!-- 11:BFFR -->
             <div class="page-project">
-                <div class="p-row card-img img-h-medium" style="background-image: url(images/project-11/p11-1.png);"></div>
+                <div class="p-row card-img img-h-medium" style="background-image: url(images/project-11/p1.png);"></div>
                 <div class="p-row">
                     <div class="p-column">
                         <div class="card c-big">
@@ -1107,22 +1192,107 @@
                                 </div>    
                             </div>
                         </div>
-                        <div class="card-img img-h-small" style="background-image: url(images/project-11/p11-2.png);"></div>
-                        <div class="card-img img-h-large" style="background-image: url(images/project-11/p11-3.png);"></div>
+                        <div class="card-img img-h-small" style="background-image: url(images/project-11/p2.png);"></div>
+                        <div class="card-img img-h-large" style="background-image: url(images/project-11/p3.png);"></div>
                     </div>
                     <div class="p-column">
-                        <div class="card-img img-w-medium" style="background-image: url(images/project-11/p11-4.png);"></div>
-                        <div class="card-img img-w-medium" style="background-image: url(images/project-11/p11-5.png);"></div>
+                        <div class="card-img img-w-medium" style="background-image: url(images/project-11/p4.png);"></div>
+                        <div class="card-img img-w-medium" style="background-image: url(images/project-11/p5.png);"></div>
                     </div>
                 </div>
-                <div class="p-row card-img img-h-medium" style="background-image: url(images/project-11/p11-6.png);"></div>
+                <div class="p-row card-img img-h-medium" style="background-image: url(images/project-11/p6.png);"></div>
                 <div class="p-row">
-                    <div class="card-img img-h-small" style="background-image: url(images/project-11/p11-7.png);"></div>
-                    <div class="card-img img-h-small" style="background-image: url(images/project-11/p11-8.png);"></div>
-                    <div class="card-img img-h-small" style="background-image: url(images/project-11/p11-9.png);"></div>
+                    <div class="card-img img-h-small" style="background-image: url(images/project-11/p7.png);"></div>
+                    <div class="card-img img-h-small" style="background-image: url(images/project-11/p8.png);"></div>
+                    <div class="card-img img-h-small" style="background-image: url(images/project-11/p9.png);"></div>
                 </div>
             </div>
-        </div>  
+            <!-- 12:Tekairos -->
+            <div class="page-project">
+                <div class="p-row card-img img-h-medium" style="background-image: url(images/project-12/p1.png);"></div>
+                <div class="p-row">
+                    <div class="p-column">
+                        <div class="card-img img-w-small img-h-small" style="background-image: url(images/project-12/p2.png);"></div>
+                        <div class="card-img img-h-small" style="background-image: url(images/project-12/p3.png);"></div>
+                        <div class="card-img img-h-large" style="background-image: url(images/project-12/p4.png); flex: 1 0 1;"></div>
+                    </div>
+                    <div class="p-column">
+                        <div class="card-img img-h-large img-sp-5" style="background-image: url(images/project-12/p5.png);"></div>
+                        <div class="card c-big">
+                            <div class="big-card-body">
+                                <div class="card-body-text">
+                                        <p>App Design</p>
+                                        <h3>Tekairos</h3>
+                                        <p>There is really something for everyone on this app. 
+                                            Making mental, physical and spiritual well being 
+                                            far more accessible. For the platform design we 
+                                            based ourselves on a strong user experience 
+                                            research to develop the best user interface results.
+                                        </p>
+                                </div>    
+                            </div>
+                        </div>
+                        <div class="card-img" style="background-image: url(images/project-12/p6.png);"></div>
+                    </div>
+                </div>  
+                <div class="p-row">
+                    <div class="card-img img-h-small" style="background-image: url(images/project-12/p7.png);"></div>
+                    <div class="card-img img-h-small" style="background-image: url(images/project-12/p8.png);"></div>
+                    <div class="card-img img-h-small" style="background-image: url(images/project-12/p9.png);"></div>
+                </div>
+                <div class="p-row card-img img-h-medium" style="background-image: url(images/project-12/p10.png);"></div>
+            </div>
+            <!-- 13:Vania Levu -->
+            <div class="page-project">
+                <div class="p-row">
+                    <div class="p-column">
+                        <div class="card c-big">
+                            <div class="big-card-body">
+                                <div class="card-body-text">
+                                        <p>Brand Identity</p>
+                                        <h3>Vania Levu</h3>
+                                        <p>Vania transforms the complexity of her emotions into a 
+                                            sensory experience shared through her artistic production. 
+                                            In her sets, she mixes various genres of techno, creating 
+                                            an experience that transports the listener directly into 
+                                            her universe.
+                                        </p>
+                                </div>    
+                            </div>
+                        </div>
+                        <div class="card-img" style="background-image: url(images/project-13/p1.png);"></div>
+                    </div>
+                    <div class="card-img img-h-large img-sp-6" style="background-image: url(images/project-13/p2.png);"></div>
+                </div>
+                <div class="p-row">
+                    <div class="p-column">
+                        <div class="card-img img-w-small" style="background-image: url(images/project-13/p3.png);"></div>
+                    </div>
+                    <div class="p-column">
+                        <div class="card c-big">
+                            <div class="big-card-body">
+                                <div class="card-body-text">
+                                        <p>Vania Levu</p>
+                                        <h3>Visuals</h3>
+                                        <p>The visuals strike a balance between bold, razor-sharp 
+                                            shapes with a slightly dark aesthetic and funky vintage 
+                                            Japanese images. This contrast mirrors the unique blend 
+                                            of styles found in Vania's music. The logo features an 
+                                            abstract decomposition of the name itself, reinforcing 
+                                            this creative duality.
+                                        </p>
+                                </div>    
+                            </div>
+                        </div>
+                        <div class="card-img img-h-medium" style="background-image: url(images/project-13/p4.png);"></div>
+                    </div>
+                </div>
+                <div class="p-row card-img img-h-small" style="background-image: url(images/project-13/p5.png);"></div>
+                <div class="p-row card-img img-h-small" style="background-image: url(images/project-13/p6.png);"></div>
+            </div>
+        </div> 
+    </div> 
+</div>  
 </body>
 </html>
 <!-- Last written by Anna Maria Lewke, 17/10/2024 :) -->
