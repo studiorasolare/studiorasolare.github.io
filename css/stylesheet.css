@@ -166,6 +166,8 @@ ul {
     max-width: 280px;
     column-gap: 6px;
     row-gap: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .project:hover {
@@ -611,40 +613,24 @@ ul {
     height: 250px;
 }
 
-.img-w-large {
-    width: 445px;
+.img-h-fill {
+    height: auto;
 }
 
-.img-w-medium {
-    width: 380px;
+.flex-fill {
+    flex: auto;
 }
 
-.img-w-small {
-    width: 320px;
+.flex-small {
+    flex: 0 0 35%;
 }
 
-.img-sp-1 {
+.flex-medium {
+    flex: 0 0 42%;
+}
+
+.flex-large {
     flex: 0 0 60%;
-}
-
-.img-sp-2 {
-    flex: 0 0 57%;
-}
-
-.img-sp-3 {
-    flex: 1.5 1 auto;
-}
-
-.img-sp-4 {
-    flex: 1 2 auto;
-}
-
-.img-sp-5 {
-    flex: 0 1 120%;
-}
-
-.img-sp-6 {
-    flex: 0 1 160%;
 }
 
 .big-card-body {
@@ -676,25 +662,11 @@ ul {
   }
 
 
-/* Page Info ipad responsive*/
-
-.ipad-only-1 {
-    flex: 0 0 53%;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    height: 100%;
-    width: 100%;
+/* Ipad responsive*/
+#ipad-projects {
+    display: none;
 }
 
-.ipad-only-3 {
-    flex: 0 0 66.66%;
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    height: 100%;
-    width: 100%;
-}
 
 /* Responsive scale */
 @media(min-width: 1500px){
@@ -732,7 +704,6 @@ ul {
     }
 }
 
-
 /* 1470px and < */
 @media(max-width: 1490px){
     .previews {
@@ -747,6 +718,14 @@ ul {
     }
     .widgets {
         flex: 0 0 17.1vw;
+    }
+
+    .flex-small {
+        flex: 0 0 50%;
+    }
+
+    .flex-large {
+        flex: 0 0 50%;
     }
 }
 
@@ -776,6 +755,10 @@ ul {
     }
     .person-6 {
         width: 10.3vw;
+    }
+
+    .img-h-large {
+        height: 30vh;
     }
 }
 
@@ -826,9 +809,10 @@ ul {
         height: 200px;
         width: 100%;
     }
-    .img-sp-1 {
-        flex: 0 0 auto;
+
+    #ipad-projects {
+        display: block;
     }
 }
 
-/* Last written by Anna Maria Lewke, 01/09/2024 :) */
+/* Last written by Anna Maria Lewke, 03/12/2024 :) */
