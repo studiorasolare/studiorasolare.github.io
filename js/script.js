@@ -314,4 +314,17 @@ button.addEventListener("click", (event) => {
   
     currentThemeSetting = newTheme;
 }); 
-// Last written by Anna Maria Lewke, 02/12/2024 :)
+
+
+// Ipad
+
+let projectTitle = document.getElementById("ipad-projects");
+
+
+function toggleProjectMenu() {
+if (projectTitle.style.display === "block") {
+    projectList.style.display = "none"
+}
+};
+
+// Last written by Anna Maria Lewke, 03/12/2024 :)
