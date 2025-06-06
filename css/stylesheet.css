@@ -88,6 +88,10 @@ ul {
     right: 0;
 }
 
+.ipad-only {
+    display: contents;
+}
+
 /* Navigation + title */
 
 .navigation {
@@ -123,6 +127,10 @@ ul {
     margin: 0;
     width: 100%;
     cursor: pointer;
+}
+
+.menu-mobile {
+    display: none;
 }
 
 .nav-options {
@@ -211,6 +219,10 @@ ul {
 }
 #store:hover {
     cursor: default;
+}
+
+.nav-toggle {
+    display: none;
 }
 
 /* Container: Widgets, Previews and People */
@@ -663,9 +675,9 @@ ul {
 
 
 /* Ipad responsive*/
-#ipad-projects {
+/* #ipad-projects {
     display: none;
-}
+} */
 
 
 /* Responsive scale */
@@ -801,6 +813,11 @@ ul {
     .info-row {
         flex-direction: column;
     }
+
+    .p-row {
+        flex-direction: column;
+    }
+
     .img-w-medium {
         height: 200px;
         width: 100%;
@@ -810,9 +827,101 @@ ul {
         width: 100%;
     }
 
-    #ipad-projects {
-        display: block;
+    .card-img {
+        height: 200px;
+        width: 100%;
     }
+
 }
 
-/* Last written by Anna Maria Lewke, 03/12/2024 :) */
+/* 900px and < */
+@media(max-width: 900px){
+   
+#about {
+    flex: 0 0 0;
+}
+#events {
+    flex: 0 0 0;
+}
+.nav-left {
+    display: none;
+    flex: 0 1 0;
+    flex-direction: column;
+}
+.nav-right {
+    display: none;
+    flex: 0 1 0;
+    flex-direction: column;
+}
+.nav-toggle {
+    display: flex;
+}
+#time-logo {
+    display: none;
+}
+.ora-title {
+    margin: 20px 0px 0px;
+}
+.widgets {
+    order: 1;
+}
+.date-widget {
+    width: 100%;
+}
+.body-content {
+    order: 2;
+    flex: 1 1 auto;
+    padding-bottom: 100px;
+}
+.previews {
+    order: 3;
+    flex: 0 1 auto;
+}
+#people-row:nth-child(n+2) {
+    display: none;
+}
+.person:nth-child(5) {
+    display: none;
+}
+
+.person-3 {
+    width: 63px;
+}
+.person-2 {
+    width: 63px;
+}
+.person-4 {
+    width: 73px;
+}
+.person-6 {
+    width: 73px;
+}
+
+#people-row {
+    width: 100%;
+}
+
+#page-people {
+    padding: 35px 10vw 0px 10vw;
+}
+
+.div-container {
+    flex-direction: column;
+}
+.i-widgets {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.cloud {
+    height: 5%;
+}
+#screen-toggle {
+    padding: 11px 30px 11px 12px;
+}
+
+}
+
+
+/* Last written by Anna Maria Lewke, 05/17/2025 :) */
