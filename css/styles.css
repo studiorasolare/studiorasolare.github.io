@@ -30,6 +30,7 @@
   animation-timing-function: linear;
   animation-name: Float, FadeFloat;
   z-index: 1;
+  height: 12%;
 }
 @keyframes Float {
   from {
@@ -53,79 +54,66 @@
   animation-delay: -154.61538462s;
   top: 85%;
   animation-duration: 80s;
-  height: 12%;
 }
 .cloud:nth-child(12) {
   animation-delay: -168.61538462s;
   top: 76%;
   animation-duration: 80s;
-  height: 12%;
 }
 .cloud:nth-child(11) {
   animation-delay: -199.61538462s;
   top: 67%;
   animation-duration: 80s;
-  height: 12%;
 }
 .cloud:nth-child(10) {
   animation-delay: -184.61538462s;
   top: 60%;
   animation-duration: 80s;
-  height: 12%;
 }
 .cloud:nth-child(9) {
   animation-delay: -166.15384615s;
   top: 54%;
   animation-duration: 84s;
-  height: 12%;
 }
 .cloud:nth-child(8) {
   animation-delay: -147.69230769s;
   top: 48%;
   animation-duration: 88s;
-  height: 12%;
 }
 .cloud:nth-child(7) {
   animation-delay: -129.23076923s;
   top: 42%;
   animation-duration: 92s;
-  height: 12%;
 }
 .cloud:nth-child(6) {
   animation-delay: -110.76923077s;
   top: 36%;
   animation-duration: 96s;
-  height: 12%;
 }
 .cloud:nth-child(5) {
   animation-delay: -92.30769231s;
   top: 30%;
   animation-duration: 100s;
-  height: 12%;
 }
 .cloud:nth-child(4) {
   animation-delay: -73.84615385s;
   top: 24%;
   animation-duration: 104s;
-  height: 12%;
 }
 .cloud:nth-child(3) {
   animation-delay: -55.38461538s;
   top: 18%;
   animation-duration: 108s;
-  height: 12%;
 }
 .cloud:nth-child(2) {
   animation-delay: -36.92307692s;
   top: 12%;
   animation-duration: 112s;
-  height: 12%;
 }
 .cloud:nth-child(1) {
   animation-delay: -18.46153846s;
   top: 6%;
   animation-duration: 116s;
-  height: 12%;
 }
 
 #party {
@@ -142,10 +130,12 @@
 }
 
 .emoji {
+  opacity: 0;
   position: absolute;
-  width: 100%;
+  width: 50px;
+  height: auto;
   background-repeat: no-repeat;
   background-size: auto 100%;
-  height: 50px;
   overflow-y: visible;
 }
+
