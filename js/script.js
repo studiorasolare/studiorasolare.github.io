@@ -31,6 +31,9 @@ let currentPlace;
 let currentTime;
 let currentDate;
 
+let locWidget = document.getElementById("loc-widget");
+let dateWidget = document.getElementById("date-widget");
+
 // default loc, time and Date
 locationDiv.innerHTML = places[0].name;
 let isDefault = true;
@@ -51,6 +54,16 @@ setInterval(function (){
 // updates loc, time and date for each person
 people.forEach(person => {
     person.addEventListener("click", ()=>{
+
+        locWidget.style.cssText = "background-color: var(--color-p)";
+        dateWidget.style.cssText = "background-color: var(--color-p)";
+
+        setTimeout(() => {
+            locWidget.style.cssText = "background-color: ";
+            dateWidget.style.cssText = "background-color: ";
+        }, 250);
+
+
         currentN = Number(person.getAttribute("data-order"));
 
         currentPlace = places[currentN].name;
@@ -64,7 +77,7 @@ people.forEach(person => {
             timeLogoDiv.innerHTML = currentLogoTime;
 
             currentDate = luxon.DateTime.now().setZone(places[currentN].timezone);
-            dateDiv.innerHTML = currentDate.toLocaleString({month: "long", day: "numeric", weekday: "long"});
+            dateDiv.innerHTML = currentDate.toLocaleString({month: "long", day: "numeric", weekday: "long"},{ locale: "en" });
         };
         setInterval(function (){
             updateTime()
@@ -85,6 +98,9 @@ const infoCards = Array.from(document.querySelectorAll(".card-info"));
 const projectList = Array.from(document.querySelectorAll(".project"));
 const projectPages = Array.from(document.querySelectorAll(".page-project"));
 const projectCards = Array.from(document.querySelectorAll(".card-proj"));
+
+const widgets = document.querySelector("div.widgets");
+const container = document.querySelector("div.body-content");
 
 let logoDiv = document.getElementById("ora-logo");
 
@@ -118,6 +134,9 @@ infoNav.forEach(nav => {
     nav.addEventListener("click",()=>{
         currentN = Number(nav.getAttribute("data-order"));
         removeBodyContent();
+        mobileHidePreview();
+        mobileHideWidget();
+        removeMenuMobile();
         bodyContent.style.cssText = "overflow-y: scroll";
         infoPages[currentN].style.cssText = "display: flex";
         nav.style.cssText = "color: var(--color-p); cursor: default";
@@ -129,11 +148,38 @@ infoCards.forEach(card => {
     card.addEventListener("click",()=>{
         currentCard = Number(card.getAttribute("data-order"));
         removeBodyContent();
+        mobileHidePreview();
+        mobileHideWidget();
         bodyContent.style.cssText = "overflow-y: scroll";
         infoPages[currentCard].style.cssText = "display: flex";
         card.style.cssText = "background-color: var(--color-card-hv);cursor: default";
     })
 });
+
+let mobileHidePreview = function () {
+     if (window.innerWidth < 900) {
+    if (peoplePage.style.display === "none"){
+        previewsBody.style.display = "none";
+    } else {
+            previewsBody.style.display = "";
+        }
+}
+};
+
+let mobileHideWidget = function () {
+    if (window.innerWidth < 900) {
+        widgets.style.display = "none";
+        container.style.display = "none";
+    }
+};
+
+let mobileShowWidget = function () {
+    if (window.innerWidth < 900) {
+        widgets.style.display = "flex";
+        container.style.display = "";
+    }
+};
+
 
 // Projects list
 let projects = [
@@ -167,18 +213,23 @@ projectList.forEach(project => {
     project.addEventListener("click",()=>{
         curP = Number(project.getAttribute("data-order"));
         removeBodyContent();
+        mobileHidePreview();
+        mobileHideWidget();
+        removeMenuMobile();
         bodyContent.style.cssText = "overflow-y: scroll";
         projectPages[curP].style.cssText = "display: flex";
         project.innerHTML = projects[curP].name;
         project.style.cssText = "color: var(--color-p); cursor: default";
         projectCards[curP].style.cssText = "background-color: var(--color-card-hv);cursor: default";
     });
-});
+});  
 
 projectCards.forEach(card => {
     card.addEventListener("click",()=>{
         currentN = Number(card.getAttribute("data-order"));
         removeBodyContent();
+        mobileHidePreview();
+        mobileHideWidget();
         bodyContent.style.cssText = "overflow-y: scroll";
         projectPages[currentN].style.cssText = "display: flex";
         card.style.cssText = "background-color: var(--color-card-hv);cursor: default";
@@ -186,7 +237,15 @@ projectCards.forEach(card => {
     })
 });
 
-logoDiv.addEventListener("click", ()=>{removeBodyContent(); peoplePage.style.cssText = "display:flex"; bodyContent.style.cssText = "overflow-y: hidden";})
+
+
+logoDiv.addEventListener("click", ()=>{
+    removeBodyContent(); 
+    peoplePage.style.cssText = "display:flex"; 
+    bodyContent.style.cssText = "overflow-y: hidden"; 
+    mobileHidePreview();
+    mobileShowWidget();
+})
 
 // Cloud, Party toggle
 
@@ -217,9 +276,8 @@ emojiList.forEach((emoji, index) => {
     setTimeout(() => {
     var randomTop = Math.floor(Math.random() * 100) + 1;
     var randomLeft = Math.floor(Math.random() * 100) + 1;
-    emoji.style.cssText = `top: ${randomTop}%; left: ${randomLeft}%;`;
-    emoji.style.backgroundImage = `url("images/party/${Math.floor(Math.random() * 37) + 1}.png")`;
-    }, index * 200);
+    emoji.style.cssText = `opacity:1; top: ${randomTop}%; left: ${randomLeft}%;`;
+    }, index * 700);
 });
 };
 
@@ -316,15 +374,56 @@ button.addEventListener("click", (event) => {
 }); 
 
 
-// Ipad
 
-let projectTitle = document.getElementById("ipad-projects");
+let previewsBody = document.getElementById("preview-body");
 
+let senseSpeed = 5;
+let previousScroll = 0;
+previewsBody.addEventListener("scroll", function(event) {
+    if (window.innerWidth >= 900) return;
+    let scroller = previewsBody.scrollTop;
+    if (!widgets) return;
+    if (scroller - senseSpeed > previousScroll) {
+        widgets.style.display = "none";
+        container.style.display = "none";
+    } else if (scroller + senseSpeed < previousScroll) {
+        widgets.style.display = "flex";
+        container.style.display = "";
+    }
+    previousScroll = scroller;
+});
 
-function toggleProjectMenu() {
-if (projectTitle.style.display === "block") {
-    projectList.style.display = "none"
-}
+const navToggle = document.getElementById("nav-toggle");
+const divContainer = document.querySelector(".div-container");
+const navLeft = document.querySelector(".nav-left");
+const navRight = document.querySelector(".nav-right");
+const navOptions = document.querySelector(".nav-options");
+divContainer.style.display = "flex";
+
+navToggle.addEventListener("click", () => {
+    if (divContainer.style.display === "flex") {
+        divContainer.style.display = "none";
+        navToggle.textContent = "Close";
+        navLeft.style.display = "flex";
+        navRight.style.display = "flex";
+        navOptions.style.flexDirection = "column";
+    } else {
+        divContainer.style.display = "flex";
+        navToggle.textContent = "Menu";
+        navLeft.style.display = "none";
+        navRight.style.display = "none";
+        navOptions.style.flexDirection = "row";
+    }
+});
+
+function removeMenuMobile() {
+    if (window.innerWidth < 900) {
+        divContainer.style.display = "flex";
+        navToggle.textContent = "Menu";
+        navLeft.style.display = "none";
+        navRight.style.display = "none";
+        navOptions.style.flexDirection = "row";
+    }
 };
 
-// Last written by Anna Maria Lewke, 03/12/2024 :)
+// Last written by Anna Maria Lewke, 05/17/2025 :)
