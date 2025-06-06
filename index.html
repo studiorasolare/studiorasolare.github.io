@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ora Solare</title>
+    <title>Studio Ora Solare</title>
     <script src="js/script.js" defer></script>
     <script src="https://moment.github.io/luxon/global/luxon.min.js"></script>
     <link rel="stylesheet" href="css/styles.css">
@@ -27,19 +27,19 @@
             <div class="cloud"></div>
     </div>
     <div id="party">
-        <div class="emoji"></div>
-        <div class="emoji"></div>
-        <div class="emoji"></div>
-        <div class="emoji"></div>
-        <div class="emoji"></div>
-        <div class="emoji"></div>
-        <div class="emoji"></div>
-        <div class="emoji"></div>
-        <div class="emoji"></div>
-        <div class="emoji"></div>
-        <div class="emoji"></div>
-        <div class="emoji"></div>
-        <div class="emoji"></div>
+        <img class="emoji" src="images/party/1.png">
+        <img class="emoji" src="images/party/2.png">
+        <img class="emoji" src="images/party/3.png">
+        <img class="emoji" src="images/party/4.png">
+        <img class="emoji" src="images/party/5.png">
+        <img class="emoji" src="images/party/6.png">
+        <img class="emoji" src="images/party/7.png">
+        <img class="emoji" src="images/party/8.png">
+        <img class="emoji" src="images/party/9.png">
+        <img class="emoji" src="images/party/10.png">
+        <img class="emoji" src="images/party/11.png">
+        <img class="emoji" src="images/party/12.png">
+        <img class="emoji" src="images/party/13.png">
     </div>
 </div>    
 <div class="box">
@@ -50,11 +50,12 @@
             <img id="ora-logo" src="images/logo-light.svg">
         </div>
         <div class="nav-options">
+            <h4 class="nav-toggle" id="nav-toggle">Menu</h4>
             <div class="nav-left">
                 <h4 class="nav-info" id="about" data-order="0">this is us</h4>
                 <h4 class="nav-info" id="events" data-order="2">events in milan</h4>
                 <div id="project-container">
-                <h4 id="ipad-projects">projects</h4>
+                <!-- <h4 id="ipad-projects">projects</h4> -->
                 <ul id="projects">
                     <h4 class="project" data-order="0">project 1</h4>
                     <h4 class="project" data-order="1">project 2</h4>
@@ -83,20 +84,24 @@
 <!-- CONTAINER -->
     <div class="div-container">
         <div class="widgets">
-                <div class="card loc-widget">
+            <div class="ipad-only i-widgets">
+                <div class="card loc-widget" id="loc-widget">
                     <h2 id="location"></h2>
                 </div>
-                <div class="card date-widget">
+                <div class="card date-widget" id="date-widget">
                     <h2 id="time"></h2>
                     <h2 id="date"></h2>
                 </div>
+            </div>
+            <div class="ipad-only i-widgets">
                 <div class="card" id="screen-toggle" data-theme-toggle>Night</div>
                 <div class="cloud-party">
                     <div class="card" id="cloud-toggle"><h2>Cloudy</h2></div>
                     <div class="card" id="party-toggle"><h2>Party</h2></div>
                 </div>
+            </div>
         </div>
-        <div class="previews">
+        <div class="previews" id="preview-body">
             <div class="card card-info" data-order="0">
                 <div class="card-header">
                     <p>This is us</p>
@@ -1295,7 +1300,7 @@
             </div>
         </div> 
     </div> 
-</div>  
+</div> 
 </body>
 </html>
-<!-- Last written by Anna Maria Lewke, 02/12/2024 :) -->
+<!-- Last written by Anna Maria Lewke, 05/17/2025 :) -->
