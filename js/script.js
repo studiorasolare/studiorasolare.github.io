@@ -187,7 +187,6 @@ let projects = [
     {name:"Bloom Branding"},
     {name:"Cycle Jeans"},
     {name:"Ray Tattoo Studio"},
-    {name:"Being Bold"},
     {name:"Monrou"},
     {name:"Amish Refresh"},
     {name:"Schrotthagen"},
@@ -263,11 +262,16 @@ cloudButton.addEventListener("click",()=>{
     if (clouds.style.display === "none"){
         clouds.style.display = "block";
         cloudButton.style.cssText = "background-color: var(--color-card-hv)";
+        cloudButton.textContent = "Clear";
+        cloudButton.style.cssText = "background-image: url(../images/clouds.png)";
         party.style.cssText = "display: none";
         partyButton.style.cssText = "background-color:";
+        partyButton.textContent = "Party";
     } else {
         clouds.style.display = "none";
+        cloudButton.textContent = "Cloudy";
         cloudButton.style.cssText = "background-color:";
+        cloudButton.style.cssText = "background-image: ";
     }
 })
 
@@ -287,11 +291,15 @@ partyButton.addEventListener("click", ()=>{
     if (party.style.display === "none"){
         party.style.display = "block";
         partyButton.style.cssText = "background-color: var(--color-card-hv)";
+        partyButton.textContent = "Work";
+        partyButton.style.cssText = "background-image: url(../images/emojis.png)";
         clouds.style.cssText = "display: none";
         cloudButton.style.cssText = "background-color:";
+        cloudButton.textContent = "Cloudy";
     } else {
         party.style.display = "none";
         partyButton.style.cssText = "background-color:";
+        partyButton.textContent = "Party";
     }
 });
 
