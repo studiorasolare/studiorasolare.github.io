@@ -137,6 +137,7 @@ infoNav.forEach(nav => {
         mobileHidePreview();
         mobileHideWidget();
         removeMenuMobile();
+        peoplePadding();
         bodyContent.style.cssText = "overflow-y: scroll";
         infoPages[currentN].style.cssText = "display: flex";
         nav.style.cssText = "color: var(--color-p); cursor: default";
@@ -150,6 +151,7 @@ infoCards.forEach(card => {
         removeBodyContent();
         mobileHidePreview();
         mobileHideWidget();
+        peoplePadding();
         bodyContent.style.cssText = "overflow-y: scroll";
         infoPages[currentCard].style.cssText = "display: flex";
         card.style.cssText = "background-color: var(--color-card-hv);cursor: default";
@@ -198,10 +200,12 @@ let projects = [
 ]
 
 projectList.forEach(project => {
+    if (window.innerWidth > 900) {
     project.addEventListener("mouseover", ()=>{
         currentP = Number(project.getAttribute("data-order"));
         project.innerHTML = projects[currentP].name;
     });
+    }
     project.addEventListener("mouseout", ()=>{
         function revertProjectName() {
             pNumber = Number(project.getAttribute("data-order"));    
@@ -215,12 +219,14 @@ projectList.forEach(project => {
         mobileHidePreview();
         mobileHideWidget();
         removeMenuMobile();
+        peoplePadding();
         bodyContent.style.cssText = "overflow-y: scroll";
         projectPages[curP].style.cssText = "display: flex";
         project.innerHTML = projects[curP].name;
         project.style.cssText = "color: var(--color-p); cursor: default";
         projectCards[curP].style.cssText = "background-color: var(--color-card-hv);cursor: default";
     });
+    
 });  
 
 projectCards.forEach(card => {
@@ -229,6 +235,7 @@ projectCards.forEach(card => {
         removeBodyContent();
         mobileHidePreview();
         mobileHideWidget();
+        peoplePadding();
         bodyContent.style.cssText = "overflow-y: scroll";
         projectPages[currentN].style.cssText = "display: flex";
         card.style.cssText = "background-color: var(--color-card-hv);cursor: default";
@@ -244,6 +251,7 @@ logoDiv.addEventListener("click", ()=>{
     bodyContent.style.cssText = "overflow-y: hidden"; 
     mobileHidePreview();
     mobileShowWidget();
+    peoplePadding();
 })
 
 // Cloud, Party toggle
@@ -382,24 +390,24 @@ button.addEventListener("click", (event) => {
 }); 
 
 
-
+// hidden on scroll function
 let previewsBody = document.getElementById("preview-body");
 
-let senseSpeed = 5;
-let previousScroll = 0;
-previewsBody.addEventListener("scroll", function(event) {
-    if (window.innerWidth >= 900) return;
-    let scroller = previewsBody.scrollTop;
-    if (!widgets) return;
-    if (scroller - senseSpeed > previousScroll) {
-        widgets.style.display = "none";
-        container.style.display = "none";
-    } else if (scroller + senseSpeed < previousScroll) {
-        widgets.style.display = "flex";
-        container.style.display = "";
-    }
-    previousScroll = scroller;
-});
+// let senseSpeed = 5;
+// let previousScroll = 0;
+// previewsBody.addEventListener("scroll", function(event) {
+//     if (window.innerWidth >= 900) return;
+//     let scroller = previewsBody.scrollTop;
+//     if (!widgets) return;
+//     if (scroller - senseSpeed > previousScroll) {
+//         widgets.style.display = "none";
+//         container.style.display = "none";
+//     } else if (scroller + senseSpeed < previousScroll) {
+//         widgets.style.display = "flex";
+//         container.style.display = "";
+//     }
+//     previousScroll = scroller;
+// });
 
 const navToggle = document.getElementById("nav-toggle");
 const divContainer = document.querySelector(".div-container");
@@ -433,5 +441,15 @@ function removeMenuMobile() {
         navOptions.style.flexDirection = "row";
     }
 };
+
+function peoplePadding() {
+if (peoplePage.style.display === "flex") { 
+    bodyContent.style.cssText = "padding-bottom: 130px";
+} else {
+    bodyContent.style.cssText = "padding-bottom:";
+}
+};
+
+window.onload = bodyContent.style.cssText = "padding-bottom: 130px";
 
 // Last written by Anna Maria Lewke, 05/17/2025 :)
