@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "city": "Milan, Italy",
+        "img_dark": "person3-dark.svg",
+        "img_light": "person3-light.svg",
+        "timezone": "Europe/Rome",
+        "class_card": "inline-block cursor-pointer    my-3 ml-6 w-full",
+        "class_id": "dark:text-black-custom  px-2 font-gotham text-custom-white absolute top-[45%] left-1/2 -translate-x-1/2 -translate-y-1/2 text-4xl font-bold group-hover:text-gray-darker  z-50"
+    },
+    {
+        "id": 2,
+        "city": "Santiago, Chile",
+        "img_dark": "person2-dark.svg",
+        "img_light": "person2-light.svg",
+        "timezone": "America/Santiago",
+        "class_card": "inline-block cursor-pointer    my-3 ml-6 w-full",
+        "class_id": "dark:text-black-custom  px-2 font-gotham text-custom-white absolute top-[45%] left-[40%] -translate-x-1/2 -translate-y-1/2 text-4xl font-bold group-hover:text-gray-darker  z-50"
+    },
+    {
+        "id": 3,
+        "city": "Tokyo, Japan",
+        "img_dark": "person6-dark.svg",
+        "img_light": "person6-light.svg",
+        "timezone": "Asia/Tokyo",
+        "class_card": "inline-block cursor-pointer    my-3 ml-6 w-full",
+        "class_id": "dark:text-black-custom  px-2 font-gotham text-custom-white absolute top-[45%] left-[35%]  -translate-x-1/2 -translate-y-1/2 text-4xl font-bold group-hover:text-gray-darker  z-50"
+    },
+    {
+        "id": 4,
+        "city": "London, UK",
+        "img_dark": "person3-dark.svg",
+        "img_light": "person3-light.svg",
+        "timezone": "Europe/London",
+        "class_card": "inline-block cursor-pointer    my-3 ml-6 w-full",
+        "class_id": "dark:text-black-custom  px-2 font-gotham text-custom-white absolute top-[45%] left-[35%] -translate-x-1/2 -translate-y-1/2 text-4xl font-bold group-hover:text-gray-darker  z-50"
+    },
+    {
+        "id": 5,
+        "city": "New York, USA",
+        "img_dark": "person4-dark.svg",
+        "img_light": "person4-light.svg",
+        "timezone": "America/New_York",
+        "class_card": "inline-block cursor-pointer    my-3 ml-6 w-full",
+        "class_id": "dark:text-black-custom  px-2 font-gotham text-custom-white absolute top-[45%] left-[20%] -translate-x-1/2 -translate-y-1/2 text-4xl font-bold group-hover:text-gray-darker  z-50"
+    },
+    {
+        "id": 6,
+        "city": "Shangai, China",
+        "img_dark": "person1-dark.svg",
+        "img_light": "person1-light.svg",
+        "timezone": "Asia/Shanghai",
+        "class_card": "inline-block cursor-pointer    my-3 ml-6 w-full",
+        "class_id": "dark:text-black-custom  px-2 font-gotham text-custom-white absolute top-[41%] left-[30%] -translate-x-1/2 -translate-y-1/2 text-4xl font-bold group-hover:text-gray-darker  z-50"
+    },
+    {
+        "id": 7,
+        "city": "Canberra, Australia",
+        "img_dark": "person4-dark.svg",
+        "img_light": "person4-light.svg",
+        "timezone": "Australia/Sydney",
+        "class_card": "inline-block cursor-pointer    my-3 ml-6 w-full",
+        "class_id": "dark:text-black-custom  px-2 font-gotham text-custom-white absolute top-[41%] left-[45%] -translate-x-1/2 -translate-y-1/2 text-4xl font-bold group-hover:text-gray-darker  z-50"
+    },
+    {
+        "id": 8,
+        "city": "Ottawa, Canada",
+        "img_dark": "person5-dark.svg",
+        "img_light": "person5-light.svg",
+        "timezone": "America/Toronto",
+        "class_card": "inline-block cursor-pointer    my-3 ml-6 w-full",
+        "class_id": "dark:text-black-custom  px-2 font-gotham text-custom-white absolute top-[41%] left-[40%] -translate-x-1/2 -translate-y-1/2 text-4xl font-bold group-hover:text-gray-darker  z-50"
+    },
+    {
+        "id": 9,
+        "city": "Bankok, Thailand",
+        "img_dark": "person2-dark.svg",
+        "img_light": "person2-light.svg",
+        "timezone": "Asia/Bangkok",
+        "class_card": "inline-block cursor-pointer    my-3 ml-6 w-full",
+        "class_id": "dark:text-black-custom  px-2 font-gotham text-custom-white absolute top-[41%] left-[30%] -translate-x-1/2 -translate-y-1/2 text-4xl font-bold group-hover:text-gray-darker  z-50"
+    },
+    {
+        "id": 10,
+        "city": "Amsterdam, Netherlands",
+        "img_dark": "person3-dark.svg",
+        "img_light": "person3-light.svg",
+        "timezone": "Europe/Amsterdam",
+        "class_card": "inline-block cursor-pointer    my-3 ml-6 w-full",
+        "class_id": "dark:text-black-custom  px-2 font-gotham text-custom-white absolute top-[41%] left-[20%] -translate-x-1/2 -translate-y-1/2 text-4xl font-bold group-hover:text-gray-darker  z-50"
+    },
+    {
+        "id": 11,
+        "city": "Johannesburg, South Africa",
+        "img_dark": "person2-dark.svg",
+        "img_light": "person2-light.svg",
+        "timezone": "Africa/Johannesburg",
+        "class_card": "inline-block cursor-pointer    my-3 ml-6 w-full",
+        "class_id": "dark:text-black-custom  px-2 font-gotham text-custom-white absolute top-[35%] left-[48%] -translate-x-1/2 -translate-y-1/2 text-4xl font-bold group-hover:text-gray-darker  z-50"
+    },
+    {
+        "id": 12,
+        "city": "Dakar, Senegal",
+        "img_dark": "person5-dark.svg",
+        "img_light": "person5-light.svg",
+        "timezone": "Africa/Dakar",
+        "class_card": "inline-block cursor-pointer    my-3 ml-6 w-full",
+        "class_id": "dark:text-black-custom  px-2 font-gotham text-custom-white absolute top-[35%] left-[24%] -translate-x-1/2 -translate-y-1/2 text-4xl font-bold group-hover:text-gray-darker  z-50"
+    },
+    {
+        "id": 13,
+        "city": "Doha, Qatar",
+        "img_dark": "person3-dark.svg",
+        "img_light": "person3-light.svg",
+        "timezone": "Asia/Qatar",
+        "class_card": "inline-block cursor-pointer    my-3 ml-6 w-full",
+        "class_id": "dark:text-black-custom  px-2 font-gotham text-custom-white absolute top-[35%] left-[24%] -translate-x-1/2 -translate-y-1/2 text-4xl font-bold group-hover:text-gray-darker  z-50"
+    },
+    {
+        "id": 14,
+        "city": "Berlin, Germany",
+        "img_dark": "person6-dark.svg",
+        "img_light": "person6-light.svg",
+        "timezone": "Europe/Berlin",
+        "class_card": "inline-block cursor-pointer    my-3 ml-6 w-full",
+        "class_id": "dark:text-black-custom  px-1 font-gotham text-custom-white absolute top-[35%] left-[24%] -translate-x-1/2 -translate-y-1/2 text-4xl font-bold group-hover:text-gray-darker  z-50"
+    },
+    {
+        "id": 15,
+        "city": "Moscow, Russia",
+        "img_dark": "person4-dark.svg",
+        "img_light": "person4-light.svg",
+        "timezone": "Europe/Moscow",
+        "class_card": "inline-block cursor-pointer    my-3 ml-6 w-full",
+        "class_id": "dark:text-black-custom text-custom-white  px-2 font-gotham absolute top-[35%] left-[24%] -translate-x-1/2 -translate-y-1/2 text-4xl font-bold group-hover:text-gray-darker  z-50"
+    }
+]

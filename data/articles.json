@@ -1,0 +1,2609 @@
+[
+    {
+        "id": 1,
+        "content": [
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/events1.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "contentBlock",
+                "device": "desktop",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "SOS House"
+                    },
+                    {
+                        "type": "p",
+                        "content": "As studio we provide a platform for independent artists of all kinds to showcase their work. From painters and designers to photographers, performers, and musicians, we welcome a diverse range of creative talent. Our studio offers a safe, inclusive space where everyone is free to connect, explore, and enjoy art in a way that's unlike any other place in Milan."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/events2.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/events3.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "contentBlock",
+                "device": "desktop",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Why was SOS House created?"
+                    },
+                    {
+                        "type": "p",
+                        "content": "We started as a creative studio, but SOS House emerged from a personal need. Milan can feel lonely, and we wanted to create a space where people could connect without judgment. Our goal is to create a sense of belonging for creative people, allowing them to interact without the pressure to perform. We want you to simply be yourself."
+                    }
+                ]
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/events4.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/events5.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/events6.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/events7.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/events1mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "contentBlock",
+                "device": "mobile",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "SOS House"
+                    },
+                    {
+                        "type": "p",
+                        "content": "As studio we provide a platform for independent artists of all kinds to showcase their work. From painters and designers to photographers, performers, and musicians, we welcome a diverse range of creative talent. Our studio offers a safe, inclusive space where everyone is free to connect, explore, and enjoy art in a way that's unlike any other place in Milan."
+                    }
+                ]
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/events2mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "contentBlock",
+                "device": "mobile",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Why was SOS House created?"
+                    },
+                    {
+                        "type": "p",
+                        "content": "We started as a creative studio, but SOS House emerged from a personal need. Milan can feel lonely, and we wanted to create a space where people could connect without judgment. Our goal is to create a sense of belonging for creative people, allowing them to interact without the pressure to perform. We want you to simply be yourself."
+                    }
+                ]
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/events3mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/events4mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/events5mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/events6mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/events7mobile.jpg",
+                "device": "mobile"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "content": [
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/cycle1.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/cycle1mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "contentBlock",
+                "device": "both",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Cycle Jeans"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Proposal refresh for Cycle Jeans. As the name indicates, is a brand that specialises in denim. It's a premium brand that wants to speak to a young adult audience through a stylish, slightly sexy and bold aesthetic."
+                    },
+                    {
+                        "type": "p",
+                        "content": "This refresh is composed by color palette, typography, moodboards and graphic proposals. Social media declinations in the Instagram layout (profile and highlights). Plus image declinations on sales assets and in stores."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/cycle2.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/cycle2mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/cycle3.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/cycle3mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/cycle4.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/cycle4mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "contentBlock",
+                "device": "desktop",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Visuals"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Bold - Contrast - Materials - Textures - CleanOur lead color is the metallic/concrete/organic texture, with a bright “red” and bold white and black to create contrast. The typo makes a statement without being overpowering blending perfectly."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/cycle5.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/cycle5mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/cycle6.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/cycle6mobile.jpg",
+                "device": "mobile"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "content": [
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/bluedogs1.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "contentBlock",
+                "device": "desktop",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Blue Dogs"
+                    },
+                    {
+                        "type": "p",
+                        "content": "This is a series of visual pieces developed for Studio Ora Solare Hub, featuring a set of stylized blue dogs. The work explores character design and visual identity through minimal shapes, flat color palettes, and a playful yet controlled use of composition."
+                    },
+                    {
+                        "type": "p",
+                        "content": "Created as part of a digital series for social media, the project balances graphic simplicity with emotional expression—each dog feels like a small symbol, both static and in motion."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/bluedogs2.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/bluedogs5.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/bluedogs3.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/bluedogs4.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/bluedogs1mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "contentBlock",
+                "device": "mobile",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Blue Dogs"
+                    },
+                    {
+                        "type": "p",
+                        "content": "This is a series of visual pieces developed for Studio Ora Solare Hub, featuring a set of stylized blue dogs. The work explores character design and visual identity through minimal shapes, flat color palettes, and a playful yet controlled use of composition."
+                    },
+                    {
+                        "type": "p",
+                        "content": "Created as part of a digital series for social media, the project balances graphic simplicity with emotional expression—each dog feels like a small symbol, both static and in motion."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/bluedogs2mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/bluedogs3mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/bluedogs4mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/bluedogs5mobile.jpg",
+                "device": "mobile"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "content": [
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/MM1.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "contentBlock",
+                "device": "desktop",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Motivos Modernos"
+                    },
+                    {
+                        "type": "p",
+                        "content": "We developed the visual identity and digital content strategy for Motivos Modernos, a curatorial community dedicated to re-exploring the modern world through a contemporary lens. The branding system is built around modularity and clarity—balancing archival references with a clean, adaptable visual language."
+                    },
+                    {
+                        "type": "p",
+                        "content": "For social media, we designed flexible templates and curated content flows that reflect the project's layered approach to history, culture, and form. The result is a cohesive identity that feels both grounded and open to reinterpretation."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/MM2.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/MM3.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/MM4.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/MM5.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/MM1mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "contentBlock",
+                "device": "mobile",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Motivos Modernos"
+                    },
+                    {
+                        "type": "p",
+                        "content": "We developed the visual identity and digital content strategy for Motivos Modernos, a curatorial community dedicated to re-exploring the modern world through a contemporary lens. The branding system is built around modularity and clarity—balancing archival references with a clean, adaptable visual language."
+                    },
+                    {
+                        "type": "p",
+                        "content": "For social media, we designed flexible templates and curated content flows that reflect the project's layered approach to history, culture, and form. The result is a cohesive identity that feels both grounded and open to reinterpretation."
+                    }
+                ]
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/MM2mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/MM3mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/MM4mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/MM5mobile.jpg",
+                "device": "mobile"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "content": [
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/stereo1.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "contentBlock",
+                "device": "desktop",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Stereoliez 4 Skorpio Klub"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Developed sculptural installations and graphic elements for Stereoliez at Skorpio Klub in Milan. The work translated Stereoliez high-intensity sound into a spatial experience—combining raw materials, light, and bold visual language to amplify the club’s underground energy."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/stereo3.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/stereo2.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/stereo4.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/stereo5.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/stereo6.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/stereo7.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/stereo1mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "contentBlock",
+                "device": "mobile",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Stereoliez 4 Skorpio Klub"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Developed sculptural installations and graphic elements for Stereoliez at Skorpio Klub in Milan. The work translated Stereoliez high-intensity sound into a spatial experience—combining raw materials, light, and bold visual language to amplify the club’s underground energy."
+                    }
+                ]
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/stereo2mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/stereo3mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/stereo4mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/stereo5mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/stereo6mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/stereo7mobile.jpg",
+                "device": "mobile"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "content": [
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/011.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "contentBlock",
+                "device": "desktop",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Zeroone"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Concept design exploring two directions: a modular layout to spotlight weekly top artists, and a launch asset for UNO AI—Zeroone’s image-to-image generation feature. Focused on clarity, consistency, and positioning the platform at the intersection of art and technology."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/012.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/013.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/014.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "contentBlock",
+                "device": "desktop",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Visuals"
+                    },
+                    {
+                        "type": "p",
+                        "content": "The concept focused on a bold, modern aesthetic defined by contrast—metallic and concrete textures paired with sharp red, white, and black tones. Typography was used as a structural element: strong, minimal, and rhythmically integrated. The result is a clean, tech-forward visual system that balances material presence with digital clarity."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/015.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/016.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/017.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/018.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/011mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "contentBlock",
+                "device": "mobile",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Zeroone"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Concept design exploring two directions: a modular layout to spotlight weekly top artists, and a launch asset for UNO AI—Zeroone’s image-to-image generation feature. Focused on clarity, consistency, and positioning the platform at the intersection of art and technology."
+                    }
+                ]
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/012mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "contentBlock",
+                "device": "mobile",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Visuals"
+                    },
+                    {
+                        "type": "p",
+                        "content": "The concept focused on a bold, modern aesthetic defined by contrast—metallic and concrete textures paired with sharp red, white, and black tones. Typography was used as a structural element: strong, minimal, and rhythmically integrated. The result is a clean, tech-forward visual system that balances material presence with digital clarity."
+                    }
+                ]
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/013mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/014mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/015mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/016mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/017mobile.jpg",
+                "device": "mobile"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "content": [
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/monrou1.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "contentBlock",
+                "device": "desktop",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Monrou"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Cover art for the New Wave band Monrou. We designed the artwork for three of their new Spotify singles—'No Son Los Momentos,' 'Lenguaje Corporal,' and 'Todo Es Muy Raro'—as part of a cohesive series. Each cover tells its own unique story, yet together they form a unified visual narrative."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/monrou2.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/monrou3.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "contentBlock",
+                "device": "desktop",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Visuals"
+                    },
+                    {
+                        "type": "p",
+                        "content": "A project inspired by the sound of '80s synth pop and new wave, reinterpreted with a modern vision while still preserving its original essence. All of this is wrapped in a retrofuturistic aesthetic that evokes a cosmic sensation, contrasting light and darkness in perfect harmony with Monrou’s signature sounds."
+                    }
+                ]
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/monrou4.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/monrou5.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/monrou1mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "contentBlock",
+                "device": "mobile",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Monrou"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Cover art for the New Wave band Monrou. We designed the artwork for three of their new Spotify singles—'No Son Los Momentos,' 'Lenguaje Corporal,' and 'Todo Es Muy Raro'—as part of a cohesive series."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/monrou2mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/monrou3mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "contentBlock",
+                "device": "mobile",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Visuals"
+                    },
+                    {
+                        "type": "p",
+                        "content": "A project inspired by the sound of '80s synth pop and new wave, reinterpreted with a modern vision while still preserving its original essence."
+                    }
+                ]
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/monrou4mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/monrou5mobile.jpg",
+                "device": "mobile"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "content": [
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "contentBlock",
+                "device": "desktop",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Schrotthagen"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Schrotthagen creates a “second floor” of emotions that starts from the music production and develops into an intrinsic journey. This journey is set in a post apocalyptic scenario where nature is gaining back her power and individuals select their own reality."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/shro1.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/shro2.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/shro3.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "contentBlock",
+                "device": "desktop",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Visuals"
+                    },
+                    {
+                        "type": "p",
+                        "content": "The primary composition of this logo revolves around the letter “S”. This pictogram juxtaposes pointy, rugged endings to evoke a sense of metallic, apocalyptic decay, against curved edges that symbolize nature. This interplay mirrors the essence of the music itself—a dystopian future where decay and nature coexist in an eerie harmony. The underlying question persists: does nature ultimately triumph?"
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/shro4.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/shro5.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/shro6.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/shro1mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "contentBlock",
+                "device": "mobile",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Schrotthagen"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Schrotthagen creates a “second floor” of emotions that starts from the music production and develops into an intrinsic journey. This journey is set in a post apocalyptic scenario where nature is gaining back her power and individuals select their own reality."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/shro2mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/shro3mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "contentBlock",
+                "device": "mobile",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Visuals"
+                    },
+                    {
+                        "type": "p",
+                        "content": "The primary composition of this logo revolves around the letter “S”. This pictogram juxtaposes pointy, rugged endings to evoke a sense of metallic, apocalyptic decay, against curved edges that symbolize nature. This interplay mirrors the essence of the music itself—a dystopian future where decay and nature coexist in an eerie harmony. The underlying question persists: does nature ultimately triumph?"
+                    }
+                ]
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/shro4mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/shro5mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/shro6mobile.jpg",
+                "device": "mobile"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "content": [
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/amish1.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "contentBlock",
+                "device": "desktop",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Amish"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Proposal refresh for Amish Denim. Amish is a brand with a rock soul that takes its inspiration from London music and grunge aesthetics. The main product is denim which is reworked in a street style through innovative fits, details and washes."
+                    },
+                    {
+                        "type": "p",
+                        "content": "This refresh is composed by a color palette, typography, moodboards and graphic proposals. Social media declinations in the Instagram layout (profile and highlights). Plus image declinations on sales assets and in stores."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/amish2.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/amish3.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "contentBlock",
+                "device": "desktop",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Visuals"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Grunge - Music - Street Style - Bright - Colorful. Our color palette is a high contrast combination of 3 bright saturated colors. The contrast between thick strokes and delicate lines creates a visual rhythm that captures the essence of daring innovation. This typography is not just a collection of letters: it's a bold statement."
+                    }
+                ]
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/amish4.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "triple",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/amish5.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "triple",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/amish6.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "triple",
+                "column": 3,
+                "type": "image",
+                "src": "/images/articles-images/amish7.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/amish1mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "contentBlock",
+                "device": "mobile",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Amish"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Proposal refresh for Amish Denim. Amish is a brand with a rock soul that takes its inspiration from London music and grunge aesthetics. The main product is denim which is reworked in a street style through innovative fits, details and washes."
+                    },
+                    {
+                        "type": "p",
+                        "content": "This refresh is composed by a color palette, typography, moodboards and graphic proposals. Social media declinations in the Instagram layout (profile and highlights). Plus image declinations on sales assets and in stores."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/amish2mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/amish3mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "contentBlock",
+                "device": "mobile",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Visuals"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Grunge - Music - Street Style - Bright - Colorful. Our color palette is a high contrast combination of 3 bright saturated colors. The contrast between thick strokes and delicate lines creates a visual rhythm that captures the essence of daring innovation. This typography is not just a collection of letters: it's a bold statement."
+                    }
+                ]
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/amish4mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "triple",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/amish5mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "triple",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/amish6mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "triple",
+                "column": 3,
+                "type": "image",
+                "src": "/images/articles-images/amish7mobile.jpg",
+                "device": "mobile"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "content": [
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/ray1.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "contentBlock",
+                "device": "desktop",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Ray Tattoo Studio"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Ray Tattoo Studio is where artistry meets expression in every stroke of the needle. Nestled in the heart of the city's vibrant arts district, the studio stands as a beacon for creativity and individuality."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/ray2.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/ray3.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/ray4.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "contentBlock",
+                "device": "desktop",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "The project"
+                    },
+                    {
+                        "type": "p",
+                        "content": "We offered a complete brand refresh, including logo design, patterns, usage guide, brand assets and social media. As well as a new webpage that provide an intuitive and engaging user experience and a new marketing strategy."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/ray5.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/ray6.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/ray1mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "contentBlock",
+                "device": "mobile",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Ray Tattoo Studio"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Ray Tattoo Studio is where artistry meets expression in every stroke of the needle. Nestled in the heart of the city's vibrant arts district, the studio stands as a beacon for creativity and individuality."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/ray2mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/ray3mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "contentBlock",
+                "device": "mobile",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "The project"
+                    },
+                    {
+                        "type": "p",
+                        "content": "We offered a complete brand refresh, including logo design, patterns, usage guide, brand assets and social media. As well as a new webpage that provide an intuitive and engaging user experience and a new marketing strategy."
+                    }
+                ]
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/ray4mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/ray5mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/ray6mobile.jpg",
+                "device": "mobile"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "content": [
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "contentBlock",
+                "device": "desktop",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Bloom"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Brand identity for the artesian distillery Bloom. A distillery isn't just about spirits; it's a declaration of boldness, a celebration of the unconventional. Infused with the spirit of rebellion and the essence of adventure, our creations defy the ordinary."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/bloom1.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/bloom2.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/bloom3.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "contentBlock",
+                "device": "desktop",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Visuals"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Bloom's visuals burst forth with a vibrant energy. Picture bold, dynamic imagery featuring contemporary design elements. Every detail is carefully curated to captivate the eye and tantalize the imagination, inviting you to experience the daring allure of Bloom."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/bloom4.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/bloom5.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/bloom6.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/bloom1mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "contentBlock",
+                "device": "mobile",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Bloom"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Brand identity for the artesian distillery Bloom. A distillery isn't just about spirits; it's a declaration of boldness, a celebration of the unconventional. Infused with the spirit of rebellion and the essence of adventure, our creations defy the ordinary."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/bloom2mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/bloom3mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "contentBlock",
+                "device": "mobile",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Visuals"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Bloom's visuals burst forth with a vibrant energy. Picture bold, dynamic imagery featuring contemporary design elements. Every detail is carefully curated to captivate the eye and tantalize the imagination, inviting you to experience the daring allure of Bloom."
+                    }
+                ]
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/bloom4mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/bloom5mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/bloom6mobile.jpg",
+                "device": "mobile"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "content": [
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/romi1.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "contentBlock",
+                "device": "desktop",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "RRomi"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Creative direction for RRomi, an indie pop singer, including photoshoots, visual communication, and cover art design. The work captures her introspective tone and emotional range through a soft, cinematic aesthetic—translating sound into image with consistency across platforms."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/romi2.png",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/romi3.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "contentBlock",
+                "device": "desktop",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Visuals"
+                    },
+                    {
+                        "type": "p",
+                        "content": "The visual direction included a series of earthy, intimate portraits and studio shots designed to reflect the organic tone of her music. Playing with natural textures, warm lighting, and soft contrasts, the photography balances vulnerability with strength."
+                    }
+                ]
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/romi4.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/romi1mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "contentBlock",
+                "device": "mobile",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "RRomi"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Creative direction for RRomi, an indie pop singer, including photoshoots, visual communication, and cover art design. The work captures her introspective tone and emotional range through a soft, cinematic aesthetic—translating sound into image with consistency across platforms."
+                    }
+                ]
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/romi2mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "contentBlock",
+                "device": "mobile",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Visuals"
+                    },
+                    {
+                        "type": "p",
+                        "content": "The visual direction included a series of earthy, intimate portraits and studio shots designed to reflect the organic tone of her music. Playing with natural textures, warm lighting, and soft contrasts, the photography balances vulnerability with strength."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/romi3mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/romi4mobile.jpg",
+                "device": "mobile"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "content": [
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/makeit1.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "contentBlock",
+                "device": "desktop",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Make it Endless"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Carhartt and Aimé Leon Dore are teaming up for a campaign centered on the upcycling of vintage workwear. Proposal project as part of this initiative, they are set to host an exclusive workshop at Spazio Maiocchi, where participants will learn hands-on techniques for breathing new life into worn garments."
+                    },
+                    {
+                        "type": "p",
+                        "content": "Additionally, they'll be making video tutorials on how to give second life to used clothes. This project embodies a commitment to sustainability and reimagining fashion with a lasting impact."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/makeit2.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/makeit3.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "contentBlock",
+                "device": "desktop",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Visuals"
+                    },
+                    {
+                        "type": "p",
+                        "content": "The typography is a good meeting point between Carhartt and Aimé Leon Dore, featuring many details, high contrast and unusual anatomy, the typeface can be a loud and proud hero. As a typography is highly used as a creative, artistic iconography more than a high readability typo."
+                    }
+                ]
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/makeit4.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/makeit1mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "contentBlock",
+                "device": "mobile",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Make it Endless"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Carhartt and Aimé Leon Dore are teaming up for a campaign centered on the upcycling of vintage workwear. Proposal project as part of this initiative, they are set to host an exclusive workshop at Spazio Maiocchi, where participants will learn hands-on techniques for breathing new life into worn garments."
+                    },
+                    {
+                        "type": "p",
+                        "content": "Additionally, they'll be making video tutorials on how to give second life to used clothes. This project embodies a commitment to sustainability and reimagining fashion with a lasting impact."
+                    }
+                ]
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/makeit2mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "contentBlock",
+                "device": "mobile",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Visuals"
+                    },
+                    {
+                        "type": "p",
+                        "content": "The typography is a good meeting point between Carhartt and Aimé Leon Dore, featuring many details, high contrast and unusual anatomy, the typeface can be a loud and proud hero. As a typography is highly used as a creative, artistic iconography more than a high readability typo."
+                    }
+                ]
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/makeit3mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/makeit4mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/makeit5mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/makeit6mobile.jpg",
+                "device": "mobile"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "content": [
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/bold1.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/bold2.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "contentBlock",
+                "device": "desktop",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Being Bold"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Proposal for short animation as a social teaser for the Milano Fashion Week event, instigating the curiosity of Bulldog Gin followers and highlighting the event with Diesel."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/bold3.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/bold4.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/bold5.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/bold1mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/bold2mobile.png",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "contentBlock",
+                "device": "mobile",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Being Bold"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Proposal for short animation as a social teaser for the Milano Fashion Week event, instigating the curiosity of Bulldog Gin followers and highlighting the event with Diesel."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/bold3mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/bold4mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/bold5mobile.jpg",
+                "device": "mobile"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "content": [
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/cobalt1.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "contentBlock",
+                "device": "desktop",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Cobalt Collective"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Cobalt Collective is where denim becomes art. From sleek, user-friendly interfaces to seamless e-commerce solutions, our team of designers combined a street style language with a modern clean look to elevate the brands online presence and stand out from the crowd."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/cobalt2.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/cobalt3.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/cobalt4.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/cobalt5.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/cobalt6.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/cobalt1mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "contentBlock",
+                "device": "mobile",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Cobalt Collective"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Cobalt Collective is where denim becomes art. From sleek, user-friendly interfaces to seamless e-commerce solutions, our team of designers combined a street style language with a modern clean look to elevate the brands online presence and stand out from the crowd."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/cobalt2mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/cobalt3mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/cobalt4mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/cobalt5mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/cobalt6mobile.jpg",
+                "device": "mobile"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "content": [
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "contentBlock",
+                "device": "desktop",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Vania Levu"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Vania transforms the complexity of her emotions into a sensory experience shared through her artistic production. In her sets, she mixes various genres of techno, creating an experience that transports the listener directly into her universe."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/vania1.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/vania2.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "contentBlock",
+                "device": "desktop",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Visuals"
+                    },
+                    {
+                        "type": "p",
+                        "content": "The visuals strike a balance between bold, razor-sharp shapes with a slightly dark aesthetic and funky vintage Japanese images. This contrast mirrors the unique blend of styles found in Vania's music. The logo features an abstract decomposition of the name itself, reinforcing this creative duality."
+                    }
+                ]
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/vania3.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/vania4.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/vania5.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/vania6.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/vania1mobile.webp",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "contentBlock",
+                "device": "mobile",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Vania Levu"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Vania transforms the complexity of her emotions into a sensory experience shared through her artistic production. In her sets, she mixes various genres of techno, creating an experience that transports the listener directly into her universe."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/vania2mobile.webp",
+                "device": "mobile"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/vania3mobile.webp",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "contentBlock",
+                "device": "mobile",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Visuals"
+                    },
+                    {
+                        "type": "p",
+                        "content": "The visuals strike a balance between bold, razor-sharp shapes with a slightly dark aesthetic and funky vintage Japanese images. This contrast mirrors the unique blend of styles found in Vania's music. The logo features an abstract decomposition of the name itself, reinforcing this creative duality."
+                    }
+                ]
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/vania4mobile.webp",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/vania5mobile.webp",
+                "device": "mobile"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "content": [
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/folder1.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/folder2.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "contentBlock",
+                "device": "desktop",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Folder"
+                    },
+                    {
+                        "type": "p",
+                        "content": "App design and identity for 'Folder', the ultimate app for connecting with like-minded individuals in your local area. Whether you're passionate about hiking, board games, photography, or simply looking for a jogging buddy, Folder has you covered. With its intuitive interface, users can effortlessly browse through a variety of activity groups organized by interest and proximity."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/folder3.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/folder4.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/folder5.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/folder6.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/folder7.jpg",
+                "device": "desktop"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/folder1mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "contentBlock",
+                "device": "mobile",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Folder"
+                    },
+                    {
+                        "type": "p",
+                        "content": "App design and identity for 'Folder', the ultimate app for connecting with like-minded individuals in your local area. Whether you're passionate about hiking, board games, photography, or simply looking for a jogging buddy, Folder has you covered. With its intuitive interface, users can effortlessly browse through a variety of activity groups organized by interest and proximity."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/folder2mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/folder3mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/folder4mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/folder5mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/folder6mobile.jpg",
+                "device": "mobile"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/folder7mobile.jpg",
+                "device": "mobile"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "content": [
+            {
+                "layout": "tripleText",
+                "type": "contentBlock",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Studio Ora Solare"
+                    },
+                    {
+                        "type": "p-multiline",
+                        "items": [
+                            "One spot, multiple aims.",
+                            "Creative studio? Independent Art? Community?",
+                            "You choose."
+                        ]
+                    },
+                    {
+                        "type": "p",
+                        "content": "We are a multidisciplinary creative studio based in Milan, Italy. Our work spans across art direction, graphic design, marketing and visual communication. We collaborate with brands, institutions and artists to develop clear, thoughtful and visually consistent projects across digital and physical formats."
+                    }
+                ]
+            },
+            {
+                "layout": "single",
+                "type": "image",
+                "src": "/images/articles-images/sos1.png"
+            },
+            {
+                "layout": "single",
+                "type": "contentBlock",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Clients our team has worked with"
+                    },
+                    {
+                        "type": "logos",
+                        "items": [
+                            "/images/logosPartners/rayban.png",
+                            "/images/logosPartners/chanel.png",
+                            "/images/logosPartners/a2a.png",
+                            "/images/logosPartners/sky.png",
+                            "/images/logosPartners/unicredit.png",
+                            "/images/logosPartners/lamborghini.png",
+                            "/images/logosPartners/mercedes.png",
+                            "/images/logosPartners/versace.png",
+                            "/images/logosPartners/luxottica.png",
+                            "/images/logosPartners/salmov.png",
+                            "/images/logosPartners/neltle.png",
+                            "/images/logosPartners/bper.png",
+                            "/images/logosPartners/amsa.png",
+                            "/images/logosPartners/nissan.png",
+                            "/images/logosPartners/unofficial.png",
+                            "/images/logosPartners/sunglass.png",
+                            "/images/logosPartners/miffy.png",
+                            "/images/logosPartners/carrefour.png",
+                            "/images/logosPartners/nexi.png",
+                            "/images/logosPartners/unareti.png",
+                            "/images/logosPartners/ied.png"
+                        ]
+                    }
+                ]
+            },
+            {
+                "layout": "single",
+                "type": "contentBlock",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Contatti"
+                    },
+                    {
+                        "type": "contacts",
+                        "items": [
+                            {
+                                "label": "Email",
+                                "value": "studiorasolare@gmail.com"
+                            },
+                            {
+                                "label": "Youtube / TikTok ",
+                                "value": "@studiorasolare"
+                            },
+                            {
+                                "label": "Instagram",
+                                "value": " @studiorasolarelab / @studiorasolarehub"
+                            },
+                            {
+                                "label": "Location",
+                                "value": "Via Tucidide 56, Right, Left, Right, Milano"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "layout": "single",
+                "type": "contentBlock",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Recognition & Collaborations"
+                    },
+                    {
+                        "type": "recognition",
+                        "items": [
+                            {
+                                "label": "",
+                                "value": "Latin American Design Awards - Winner"
+                            },
+                            {
+                                "label": "",
+                                "value": "Fondazione Francesco Morelli - Winner"
+                            },
+                            {
+                                "label": "",
+                                "value": "BASE Milano - Exhibitor, YAWP Festival"
+                            },
+                            {
+                                "label": "",
+                                "value": "Lugano, Switzerland - Visual Installation"
+                            },
+                            {
+                                "label": "",
+                                "value": "Milano Digital Week - Featured Project on Innovation"
+                            },
+                            {
+                                "label": "",
+                                "value": "IED Milano - Talk at Design Inclusivo Conference"
+                            },
+                            {
+                                "label": "",
+                                "value": "New York City SVA - Residency (Scholarship Recipient)"
+                            },
+                            {
+                                "label": "",
+                                "value": "Utrecht, Netherlands - Exhibition at Centraal Museum"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "contentBlock",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Josefina Kunz"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Founder & Creative Director. Born and raised in Santiago, Chile, and now based in Milan, she is a creative director with a background grounded in both art and design. Her work prioritizes authenticity and connection crafting inclusive spaces where creativity serves a deeper purpose."
+                    },
+                    {
+                        "type": "p",
+                        "content": "With a strong focus on the intersection of visual culture and social impact, her practice spans across brand identity, digital experiences, and visual communication. She has led projects for global brands including Luxottica, Versace, Chanel, Ray-Ban, Nestlé, and Sky, merging cultural relevance with strategic clarity."
+                    },
+                    {
+                        "type": "p",
+                        "content": "She studied at the School of Visual Arts in New York and the Istituto Europeo di Design in Milan, shaping a perspective that is both globally informed and socially engaged."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "image",
+                "src": "/images/articles-images/sos2.png"
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "contentBlock",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Elisa Romano"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Founder & Graphic Designer. Born and based in Milan, she is a multidisciplinary designer with a parallel life in music. Her approach to design is intuitive and expressive, shaped by a lifelong relationship with sound and instruments."
+                    },
+                    {
+                        "type": "p",
+                        "content": "She studied at the Istituto Europeo di Design in Milan, where she also began a Master’s in Design della Comunicazione. Her work spans across branding, editorial, and digital design, with collaborations for major clients including Mercedes-Benz, Lamborghini, BPER, and more—always driven by the belief that creativity is a tool for meaningful connection."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "image",
+                "src": "/images/articles-images/sos3.png"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "content": [
+            {
+                "layout": "single",
+                "type": "contentBlock",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Clients our team has worked with"
+                    },
+                    {
+                        "type": "logos",
+                        "items": [
+                            "/images/logosPartners/rayban.png",
+                            "/images/logosPartners/chanel.png",
+                            "/images/logosPartners/a2a.png",
+                            "/images/logosPartners/sky.png",
+                            "/images/logosPartners/unicredit.png",
+                            "/images/logosPartners/lamborghini.png",
+                            "/images/logosPartners/mercedes.png",
+                            "/images/logosPartners/versace.png",
+                            "/images/logosPartners/luxottica.png",
+                            "/images/logosPartners/salmov.png",
+                            "/images/logosPartners/neltle.png",
+                            "/images/logosPartners/bper.png",
+                            "/images/logosPartners/amsa.png",
+                            "/images/logosPartners/nissan.png",
+                            "/images/logosPartners/unofficial.png",
+                            "/images/logosPartners/sunglass.png",
+                            "/images/logosPartners/miffy.png",
+                            "/images/logosPartners/carrefour.png",
+                            "/images/logosPartners/nexi.png",
+                            "/images/logosPartners/unareti.png",
+                            "/images/logosPartners/ied.png"
+                        ]
+                    }
+                ]
+            },
+            {
+                "layout": "single",
+                "type": "contentBlock",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Contatti"
+                    },
+                    {
+                        "type": "contacts",
+                        "items": [
+                            {
+                                "label": "Email",
+                                "value": "studiorasolare@gmail.com"
+                            },
+                            {
+                                "label": "Youtube / TikTok ",
+                                "value": "@studiorasolare"
+                            },
+                            {
+                                "label": "Instagram",
+                                "value": " @studiorasolarelab / @studiorasolarehub"
+                            },
+                            {
+                                "label": "Location",
+                                "value": "Via Tucidide 56, Right, Left, Right, Milano"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "contentBlock",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Art direction and Production"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Recognizing the pivotal role of web and social platforms, Studio Ora Solare consistently explores new trends and communication channels. We maintain a fresh and innovative approach to media, specializing in the production and art direction of impactful shootings, videos, and campaigns designed for strong digital engagement. Our goal is to meet both our clients needs and the expectations of our audience."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 1,
+                "type": "contentBlock",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Digital and Social"
+                    },
+                    {
+                        "type": "p",
+                        "content": "We specialize in creating dynamic and innovative designs tailored for the digital landscape and social media platforms. From eye-catching graphics to interactive web design, our team combines artistic vision with strategic insight to ensure your brand stands out in the digital sphere. Whether you're launching a new product or seeking to revamp your online identity, we're here to transform your vision into impactful visuals that resonate with your audience. Let Digital and Social be your partner in driving digital success."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "contentBlock",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Branding and Consulting"
+                    },
+                    {
+                        "type": "p",
+                        "content": "At the core of Studio Ora Solare lies a deep understanding of the branding landscape and the essential strategies for brand growth. This expertise is cultivated through our involvement in diverse merch and capsule collections, where we oversee the entire creative process from concept ideation to online store management. We navigate this journey comprehensively, utilizing platforms tailored specifically for our clients."
+                    }
+                ]
+            },
+            {
+                "layout": "double",
+                "column": 2,
+                "type": "contentBlock",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Web Design and Ecommerce"
+                    },
+                    {
+                        "type": "p",
+                        "content": "At the heart of Studio Ora Solare strategy lies the emphasis on the web, stemming from its core strength: an in-house development team proficient in creating web applications, websites and e-commerce platforms. Our projects are meticulously crafted from art direction to production, encompassing digital PR, social strategy, and innovative technological solutions, ensuring each story finds its unique voice."
+                    }
+                ]
+            },
+            {
+                "layout": "single",
+                "type": "contentBlock",
+                "children": [
+                    {
+                        "type": "h3",
+                        "content": "Event Design"
+                    },
+                    {
+                        "type": "p",
+                        "content": "Studio Ora Solare specialize in generating and developing different kinds events, strategically showcasing your brand across various innovative ways. From conceptualization to execution, we manage every aspect of the creative journey, including concept development, entertainment curation, location, setup, and more. Our approach guarantees that your brand's distinct identity is reflected in every aspect of the event."
+                    }
+                ]
+            }
+        ]
+    }
+]

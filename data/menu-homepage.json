@@ -1,0 +1,116 @@
+[
+    {
+        "id": 1,
+        "title": "About the studio",
+        "article_id": 18,
+        "description": "We are a multi disciplinary creative studio based in Milan, Italy. We work in creative direction, graphic design, marketing and visual communication."
+    },
+    {
+        "id": 2,
+        "article_id": 19,
+        "title": "Our Services",
+        "description": "We provide a wide range of services tailored to meet your needs, including innovative Production, Art Direction, Web Design, Branding, Social Media, etc."
+    },
+    {
+        "id": 3,
+        "article_id": 1,
+        "title": "Events in Milan",
+        "description": "As a studio we provide a platform for independent artists of all kinds to showcase their work. From painters and designers to photographers..."
+    },
+    {
+        "id": 4,
+        "article_id": 15,
+        "title": "Cobalt Collective",
+        "description": "Led a brand refresh and website design for Cobalt Collective, a fashion label specializing in upcycled, one-of-a-kind denim pieces. The new identity high..."
+    },
+    {
+        "id": 5,
+        "article_id": 3,
+        "title": "Blue Dogs ",
+        "description": "This is a series of visual pieces developed for Studio Ora Solare Hub. The work explores character design and visual identity through minimal shapes."
+    },
+    {
+        "id": 6,
+        "article_id": 4,
+        "title": "Motivos Modernos",
+        "description": "We developed the visual identity and social media for a curatorial community dedicated to re-exploring the modern world through a contemporary lens."
+    },
+    {
+        "id": 7,
+        "article_id": 5,
+        "title": "Stereoliez 4 Skorpio Klub",
+        "description": "Visual installations and graphic materials for Stereoliez 4 Skorpio Klub in Milan. The work translated the high-intensity sound into immersive visuals blending raw..."
+    },
+    {
+        "id": 8,
+        "title": "Zeroone",
+        "article_id": 6,
+        "description": "Concept Design of a modular layout to spotlight weekly top artists, and a launch asset for UNO AI—Zeroone’s image-to-image generation feature."
+    },
+    {
+        "id": 9,
+        "title": "Monrou",
+        "article_id": 7,
+        "description": "Cover Art series for Monrou, a New Wave band blending nostalgia and modernity. We designed the covers for three of their latest singles on Spotify."
+    },
+    {
+        "id": 10,
+        "article_id": 8,
+        "title": "Schrotthagen",
+        "description": "Visual identity development for Schrotthagen, a German cinematic techno duo. Custom 3D logo and a detailed brand manual defining typographic systems."
+    },
+    {
+        "id": 11,
+        "title": "Amish",
+        "article_id": 9,
+        "description": "A visual update for Amish, a brand with a rock soul rooted in London’s music scene and grunge aesthetics. The refresh sharpens its identity while..."
+    },
+    {
+        "id": 12,
+        "article_id": 10,
+        "title": "Ray Tattoo Studio",
+        "description": "Branding refresh for Ray Tattoo Studio. Logo redesign, website UI/UX, and a social media marketing strategy. The approach balances boldness and clarity."
+    },
+    {
+        "id": 13,
+        "article_id": 11,
+        "title": "Bloom",
+        "description": "Developed a distinctive brand identity for Bloom, an artisan distillery known for its bold, unique flavors and its strong connection to its local terroir. "
+    },
+    {
+        "id": 14,
+        "article_id": 12,
+        "title": "RRomi ",
+        "description": "Creative direction for Romi, an indie pop singer, including photoshoots, visual communication, and cover art design. The work captures her introspective.."
+    },
+    {
+        "id": 15,
+        "article_id": 13,
+        "title": "Make it Endelss",
+        "description": "Carhartt and Aimé Leon Dore join forces for a campaign centered on the upcycling of vintage workwear. The collaboration celebrates heritage..."
+    },
+    {
+        "id": 16,
+        "article_id": 14,
+        "title": "Being Bold",
+        "description": "Visual assets for the Milan Fashion Week afterparty hosted by Bulldog Gin in collaboration with Diesel. The creative direction captured the bold, irreverent..."
+    },
+    {
+        "id": 17,
+        "article_id": 2,
+        "title": "Cycle Jeans",
+        "description": "Refresh for Cycle Jeans. As the name indicates, is a brand that specialises in denim. It's a premium brand that wants to speak to a young adult audience."
+    },
+    {
+        "id": 18,
+        "article_id": 16,
+        "title": "Vania Levu",
+        "description": "Created the visual identity for Vania Levu, a Milan-based DJ known for her hard techno sets and deep underground sound. The branding captures her raw..."
+    },
+    {
+        "id": 19,
+        "article_id": 17,
+        "title": "Folder",
+        "description": "Folder is an app where you can find different group activities in your area by joining or creating a folder."
+    }
+]

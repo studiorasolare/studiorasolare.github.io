@@ -1,0 +1,14 @@
+{
+    "single": {
+        "columns": 1
+    },
+    "double": {
+        "columns": 2
+    },
+    "triple": {
+        "columns": 3
+    },
+    "tripleText": {
+        "columns": 1
+    }
+}
